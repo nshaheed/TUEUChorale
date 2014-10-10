@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 688.0, 138.0, 1047.0, 640.0 ],
+		"rect" : [ 633.0, 138.0, 1047.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 316.875, 18.314053, 106.0, 20.0 ],
+					"text" : "loadmess target 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -491,8 +505,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.0, 107.0, 79.0, 20.0 ],
-					"text" : "loadmess 33"
+					"patching_rect" : [ 263.0, 107.0, 81.0, 20.0 ],
+					"text" : "loadmess 14'"
 				}
 
 			}
@@ -836,6 +850,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-208", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -1195,37 +1227,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-80.5::obj-73" : [ "live.gain~[16]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-71" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
-			"obj-80.8::obj-73" : [ "live.gain~[25]", "live.gain~[1]", 0 ],
-			"obj-80.8::obj-70" : [ "live.gain~[27]", "live.gain~", 0 ],
-			"obj-32" : [ "live.gain~[13]", "live.gain~", 0 ],
 			"obj-80.1::obj-73" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
-			"obj-80.4::obj-70" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-80.5::obj-71" : [ "live.gain~[17]", "live.gain~[1]", 0 ],
-			"obj-80.2::obj-73" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
 			"obj-80.2::obj-70" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-80.4::obj-73" : [ "live.gain~[9]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-73" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-70" : [ "live.gain~[24]", "live.gain~", 0 ],
+			"obj-80.3::obj-71" : [ "live.gain~[7]", "live.gain~[1]", 0 ],
+			"obj-80.6::obj-70" : [ "live.gain~[21]", "live.gain~", 0 ],
+			"obj-80.7::obj-71" : [ "live.gain~[23]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-70" : [ "live.gain~[27]", "live.gain~", 0 ],
 			"obj-80.2::obj-71" : [ "live.gain~[4]", "live.gain~[1]", 0 ],
 			"obj-80.5::obj-70" : [ "live.gain~[18]", "live.gain~", 0 ],
+			"obj-80.6::obj-73" : [ "live.gain~[19]", "live.gain~[1]", 0 ],
+			"obj-80.7::obj-70" : [ "live.gain~[24]", "live.gain~", 0 ],
+			"obj-80.4::obj-70" : [ "live.gain~[15]", "live.gain~", 0 ],
+			"obj-80.2::obj-73" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-71" : [ "live.gain~[17]", "live.gain~[1]", 0 ],
+			"obj-80.6::obj-71" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
+			"obj-80.1::obj-71" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-80.3::obj-70" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-80.1::obj-70" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-80.4::obj-73" : [ "live.gain~[9]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-73" : [ "live.gain~[16]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-73" : [ "live.gain~[25]", "live.gain~[1]", 0 ],
+			"obj-32" : [ "live.gain~[13]", "live.gain~", 0 ],
 			"obj-80.3::obj-73" : [ "live.gain~[6]", "live.gain~[1]", 0 ],
 			"obj-80.4::obj-71" : [ "live.gain~[14]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-70" : [ "live.gain~[21]", "live.gain~", 0 ],
 			"obj-122" : [ "live.gain~[12]", "live.gain~[3]", 0 ],
-			"obj-80.8::obj-71" : [ "live.gain~[26]", "live.gain~[1]", 0 ],
-			"obj-80.1::obj-71" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-73" : [ "live.gain~[19]", "live.gain~[1]", 0 ],
-			"obj-80.3::obj-71" : [ "live.gain~[7]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-71" : [ "live.gain~[23]", "live.gain~[1]", 0 ],
-			"obj-80.1::obj-70" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-80.3::obj-70" : [ "live.gain~[8]", "live.gain~", 0 ]
+			"obj-80.7::obj-73" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-71" : [ "live.gain~[26]", "live.gain~[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "scaleRandom2.maxpat",
-				"bootpath" : "/Users/n704s313/Desktop/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1246,7 +1278,7 @@
 			}
 , 			{
 				"name" : "scaleMidi.txt",
-				"bootpath" : "/Users/n704s313/Desktop/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
