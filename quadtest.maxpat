@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.0, 92.0, 36.0, 18.0 ],
+					"patching_rect" : [ 574.682983, 56.0, 36.0, 18.0 ],
 					"text" : "back"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.0, 56.0, 37.0, 18.0 ],
+					"patching_rect" : [ 574.682983, 20.0, 37.0, 18.0 ],
 					"text" : "dim1"
 				}
 
@@ -997,28 +997,28 @@
  ],
 		"parameters" : 		{
 			"obj-80.1::obj-70" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-80.4::obj-71" : [ "live.gain~[14]", "live.gain~[1]", 0 ],
-			"obj-80.5::obj-71" : [ "live.gain~[17]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-70" : [ "live.gain~[14]", "live.gain~", 0 ],
+			"obj-80.6::obj-70" : [ "live.gain~[17]", "live.gain~", 0 ],
 			"obj-80.2::obj-71" : [ "live.gain~[4]", "live.gain~[1]", 0 ],
-			"obj-80.8::obj-70" : [ "live.gain~[27]", "live.gain~", 0 ],
+			"obj-80.4::obj-71" : [ "live.gain~[10]", "live.gain~[1]", 0 ],
 			"obj-80.3::obj-73" : [ "live.gain~[6]", "live.gain~[1]", 0 ],
 			"obj-80.4::obj-73" : [ "live.gain~[9]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-73" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
-			"obj-80.8::obj-73" : [ "live.gain~[25]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-71" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-73" : [ "live.gain~[12]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-71" : [ "live.gain~[13]", "live.gain~[1]", 0 ],
 			"obj-80.2::obj-70" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-80.3::obj-71" : [ "live.gain~[7]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-70" : [ "live.gain~[21]", "live.gain~", 0 ],
-			"obj-80.7::obj-71" : [ "live.gain~[23]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-73" : [ "live.gain~[21]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-70" : [ "live.gain~[23]", "live.gain~", 0 ],
 			"obj-80.1::obj-73" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
-			"obj-80.8::obj-71" : [ "live.gain~[26]", "live.gain~[1]", 0 ],
 			"obj-12" : [ "live.gain~[30]", "live.gain~[30]", 0 ],
 			"obj-80.2::obj-73" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
-			"obj-80.5::obj-70" : [ "live.gain~[18]", "live.gain~", 0 ],
-			"obj-80.6::obj-73" : [ "live.gain~[19]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-70" : [ "live.gain~[24]", "live.gain~", 0 ],
-			"obj-80.4::obj-70" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-80.5::obj-73" : [ "live.gain~[16]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-71" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
+			"obj-80.7::obj-73" : [ "live.gain~[18]", "live.gain~[1]", 0 ],
+			"obj-80.7::obj-71" : [ "live.gain~[19]", "live.gain~[1]", 0 ],
+			"obj-80.6::obj-73" : [ "live.gain~[15]", "live.gain~[1]", 0 ],
+			"obj-80.6::obj-71" : [ "live.gain~[16]", "live.gain~[1]", 0 ],
+			"obj-80.7::obj-70" : [ "live.gain~[20]", "live.gain~", 0 ],
+			"obj-80.4::obj-70" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-80.1::obj-71" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-80.3::obj-70" : [ "live.gain~[8]", "live.gain~", 0 ]
 		}
@@ -1083,6 +1083,13 @@
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "quadpan.maxpat",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
