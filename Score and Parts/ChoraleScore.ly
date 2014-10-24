@@ -8,13 +8,23 @@
 \include "Tuba2.ly"
 
 \header {
-  title = "String Quartet"
+  title = "Tuba - Euphonium Chorale"
   instrument = "Score"
+  tagline = ""
+}
+
+\paper {
+ left-margin = 2\cm 
 }
 
 \score {
  <<
-   \new Staff \euphone
+   %\tempo 2=43	
+   \new Staff = "euph1" {
+     %\override Staff.InstrumentName.self-alignment-X = #LEFT
+     %\set Staff.instrumentName = \markup \center-column {"Euphonium I"}
+     \euphone
+   }
    \new Staff \euphtwo
    \new Staff \euphthree
    \new Staff \euphfour
