@@ -11,10 +11,12 @@ euphone =
     \clef "bass"
     \time 2/2
     \numericTimeSignature
-    \tempo "TBD"
+    \tempo "Lento"
     
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
-    R1 | e\p \breathe | R1 | e \breathe | R1 | e \fermata |
+    \set Score.markFormatter = #format-mark-box-alphabet
+    
+    R1 \fermataMarkup | R1 | e\p \breathe | R1 | e \breathe | R1 | e \fermata \mark |
     
     \time 3/2
     
@@ -24,11 +26,11 @@ euphone =
     
     \compressFullBarRests
     \override MultiMeasureRest.expand-limit = #3
-    g'\breve | R\breve*6\breathe |
+    g'\breve | R\breve*6\breathe \mark |
     
     \time 2/2
     
-    r1 |
+    R1 |
     
     \time 5/2
     
@@ -48,13 +50,15 @@ euphone =
     
     \time 5/2
     
-    d\breve~ d2 
+    d\breve~ d2\mark |
     
     \time 3/2
     
-    b2\mf df1 | d2 gf1 | f2 df1 | bf2 f1 | R1. |
+    b2\mf df1 | d2 gf1 | f2 df1 | bf2 f1 | R1.\mark |
     b2 df1 | d2 df1 | d2 f gf~ | gf d df~ | df d f | gf1 f2 |
     gf2 g1 | bf1 d,2 | df1.	
+    
+    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 |
   }
   
 {\new Staff \euphone}

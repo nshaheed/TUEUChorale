@@ -13,23 +13,74 @@
   tagline = ""
 }
 
+#(set! paper-alist (cons '("my size" . (cons (* 9 in) (* 12 in))) paper-alist))
+
 \paper {
- left-margin = 2\cm 
+  #(set-paper-size "my size")
+ %left-margin = 3\cm 
+}
+
+\layout {
+  indent = 2.3\cm
+  short-indent = 1.5\cm
 }
 
 \score {
  <<
-   %\tempo 2=43	
-   \new Staff = "euph1" {
-     %\override Staff.InstrumentName.self-alignment-X = #LEFT
-     %\set Staff.instrumentName = \markup \center-column {"Euphonium I"}
-     \euphone
+   %\tempo 2=55
+   \new StaffGroup {
+    <<
+       \new Staff = "euph1" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column= "E I" {"Eu. I"}
+         \set Staff.instrumentName = "Euph I"
+         %\set Staff.shortInstrumentName = "E.I"
+         \set Staff.shortInstrumentName = \markup \center-column{"E.I"}
+         \euphone
+       }
+       
+       \new Staff  = "euph2" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column {"Eu. II"}
+         \set Staff.instrumentName = "Euph II"
+         \set Staff.shortInstrumentName = "E.II"
+         \euphtwo
+       }
+       \new Staff  = "euph3" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column {"Eu. III"}
+         \set Staff.instrumentName = "Euph III"
+         \set Staff.shortInstrumentName = "E.III"
+         \euphthree
+       }
+       \new Staff  = "euph4" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column {"Eu. IV"}
+         \set Staff.instrumentName = "Euph IV"
+         \set Staff.shortInstrumentName = "E.IV"
+         \euphfour
+       }
+     >>
    }
-   \new Staff \euphtwo
-   \new Staff \euphthree
-   \new Staff \euphfour
-   \new Staff \tubaone
-   \new Staff \tubatwo
+   
+   \new StaffGroup {
+     <<
+       \new Staff = "tuba1" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column {"Tu. I"}
+         \set Staff.instrumentName = "Tuba I"
+         \set Staff.shortInstrumentName = "T.I"
+         \tubaone
+       }
+       \new Staff = "tuba2" {
+         \override Staff.InstrumentName.self-alignment-X = #CENTER
+         %\set Staff.instrumentName = \markup \center-column {"Tu. II"}
+         \set Staff.instrumentName = "Tuba II"
+         \set Staff.shortInstrumentName = "T.II"
+         \tubatwo
+       }
+     >>
+   }
  >>
  
  %\midi {}
