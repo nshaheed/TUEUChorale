@@ -13,6 +13,7 @@ euphone =
     \numericTimeSignature
     \tempo "Lento"
     
+    \override Score.RehearsalMark.outside-staff-priority = #1
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \set Score.markFormatter = #format-mark-box-alphabet
     
@@ -53,12 +54,13 @@ euphone =
     d\breve~ d2\mark |
     
     \time 3/2
-    
+    \tempo "Faster"
     b2\mf df1 | d2 gf1 | f2 df1 | bf2 f1 | R1.\mark |
     b2 df1 | d2 df1 | d2 f gf~ | gf d df~ | df d f | gf1 f2 |
-    gf2 g1 | bf1 d,2 | df1.	
+    gf2 g1 | bf1 d,2 | df1.\mark |
     
-    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 |
+    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | g2 bf1 | b2 bf1 | b2 df d~ | d b bf~ | bf r1 |
+    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | d2\< df1 | gf2 f1 | d'2 df1 | gf2 f1 | R1.\!
   }
   
 {\new Staff \euphone}

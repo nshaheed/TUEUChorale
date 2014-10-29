@@ -13,6 +13,7 @@ euphfour =
     \numericTimeSignature
     \tempo "Lento"
     
+    \override Score.RehearsalMark.outside-staff-priority = #1
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \set Score.markFormatter = #format-mark-box-alphabet
     
@@ -26,19 +27,23 @@ euphfour =
     
     \time 4/2
     
-    R\breve | c2\p e c' a~ | a\breve | c,2\< e c' a | gf' df bf1\mf |
-    bf bf | bf bf\breathe \mark |
+    R\breve | R | c2 e c' a~ | a r g1\< | e f~\mf\> | f\breve~ | f\breve\breathe \mark |
+    %c2\p e c' a~ | a\breve | c,2\< e c' a | gf' df bf1\mf |
+    %bf bf | bf bf\breathe \mark |
     
-    \time 2/2 d,1\mp~ | \time 5/2 d\breve~ d2 | 
+    \time 2/2 d1\mp~ | \time 5/2 d\breve~ d2 | 
     
     \time 2/2 d1~ | \time 5/2 d\breve~ d2 |
     
     \time 2/2 d1~ | \time 5/2 d\breve~ d2\mark |
     
+    \tempo "Faster"
     \time 3/2 b2\mf d b' | fs1. | d | R | b2 d b'\mark | fs1. | d |
-    b2 d b' | fs1. | d | R 	| bf2 d bf' | g1. | d |
+    b2 d b' | fs1. | d | R 	| bf2 d bf' | g1. | df\mark |
     
-    b2 d b' | fs1. | d | R |
+    R1. | b2 d b' | fs1. | df | R | g,2 bf g' | fs1. | df | g2 d bf | 
+    b d b' | fs1. | d | R 
+    %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
   }
   
 {\new Staff \euphfour}

@@ -13,6 +13,7 @@ tubatwo =
     \numericTimeSignature
     \tempo "Lento"
     
+    \override Score.RehearsalMark.outside-staff-priority = #1
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \set Score.markFormatter = #format-mark-box-alphabet
     
@@ -33,10 +34,13 @@ tubatwo =
     
     \time 2/2 R1 | \time 5/2 bf1 af2\< af1\mark | 
     
-    \time 3/2 b1.\!\mf | b1. | b1. | bf | d,\mark | b | b | b | b | b | b2 d b' | 
-    bf1. | bf | b |
+    \tempo "Faster"
+    \time 3/2 b1.\!\mf | b1. | b1. | bf | b,\mark | b | b | b | b | b | b2 d b' | 
+    bf1. | bf | bf2 f df\mark |
     
-    b1. | b1. | b1. | bf |
+    b2 d b' | fs b,1 | r1 fs'2 | bf f df | g, bf g' | d g,1 | b1. | df | g | 
+    b | b | b2 fs d | bf df bf' | 
+    %b1. | b1. | b1. | bf |
   }
   
 {\new Staff \tubatwo}
