@@ -59,8 +59,14 @@ euphone =
     b2 df1 | d2 df1 | d2 f gf~ | gf d df~ | df d f | gf1 f2 |
     gf2 g1 | bf1 d,2 | df1.\mark |
     
-    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | g2 bf1 | b2 bf1 | b2 df d~ | d b bf~ | bf r1 |
-    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | d2\< df1 | gf2 f1 | d'2 df1 | gf2 f1 | R1.\!
+    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | g2 bf1 | b2 bf1 | b2 df d~ | d b bf~ | bf r1\mark |
+    b2 df1 | d2 gf1 | f2 df1 | bf2 f1 | d2\< df1 | gf2 f1 | d'2 df1 | gf2 f1\mark | 
+    
+    % Transposed reiteration
+    c2\f d1 | ef2 g1 | gf2 d1 | b2 gf1 | c2 d1 | ef2 d1 | ef2 gf g~ | g ef gf | 
+    g1 gf2 | g af g | b1 ef,2 | d1. | 
+    
+    
   }
   
 {\new Staff \euphone}

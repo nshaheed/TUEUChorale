@@ -41,8 +41,12 @@ euphfour =
     \time 3/2 b2\mf d b' | fs1. | d | R | b2 d b'\mark | fs1. | d |
     b2 d b' | fs1. | d | R 	| bf2 d bf' | g1. | df\mark |
     
-    R1. | b2 d b' | fs1. | df | R | g,2 bf g' | fs1. | df | g2 d bf | 
-    b d b' | fs1. | d | R 
+    R1. | b2 d b' | fs1. | df | R | g,2 bf g' | fs1. | df | g2 d bf\mark | 
+    
+    b d b' | fs1. | d | R | bf2\< d bf' | f1. | d\mark |  
+    
+    % Transposed reiteration
+    R1. * 5 \! | c1.\f | ef | c' | g | c, | d | b' | fs | 
     %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
   }
   

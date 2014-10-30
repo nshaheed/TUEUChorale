@@ -37,7 +37,14 @@ euphthree =
     \time 3/2 d1.\mf | b2 d b' | fs1. | df | R\mark | b2 d b' | fs1. | d | 
     b2 d b' | fs1. | R | R | bf,2 d bf' | f1.\mark |
     
-    d | R | b2 d b' | f1. | d | R | b2 d b' | f1. | bf, | R | b2 d b' | fs1. | df | 
+    d | R | b2 d b' | f1. | d | R | b2 d b' | f1. | bf,\mark
+    
+    | R | b2 d b' | fs1. | df | 
+    R | b2\< d b' | fs1. | ef\mark | 
+    
+    % Transposed Reiteration
+    c2\f ef c' | g1. | c,2 ef c' | fs,1. | c2 ef c' | g1. | c,2 ef c' | ef,1. | 
+    c2 ef c' | fs,1. | b,2 d b' | b,1.
     %d1. | b2 d b' | fs1. | df | R1.*2 | b2 d b' | f1. | bf,
   }
   

@@ -17,6 +17,10 @@ tubaone =
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \set Score.markFormatter = #format-mark-box-alphabet
     
+    % Compressed rest settings
+    \compressFullBarRests
+    \override MultiMeasureRest.expand-limit = #3
+    
     R1\fermataMarkup | R1 | c'\p \breathe | R1 | c \breathe | r1 | c~ \fermata \mark |
     
     \time 3/2
@@ -36,8 +40,13 @@ tubaone =
     \time 3/2 b1.\mf | b1. | b | bf2 df bf' | fs1.\mark | b | 
     b | b | b2 fs d | b d b' | fs1. | g, | g | g\mark |
     
-    r1 d'2 | b'1. | b2 fs d | bf df bf' | g1. | d2 g bf | b1. | R | g,2 bf g' |
-    fs1 b,2 | d1 b2 | b'1 b,2 | bf'1. |
+    r1 d'2 | b'1. | b2 fs d | bf df bf' | g1. | d2 g bf | b1. | R | g,2 bf g'\mark |
+    
+    
+    fs1 b,2 | d1 b2 | b'1 b,2 | bf'1. | bf\< | R | b2 fs d | ef gf ef'\mark | 
+    
+    % Transposed Reiteration
+    R1. * 12\!
     
     %| b | bf2 df bf' | f1. | d | R1.*2 | g2 bf g'
     

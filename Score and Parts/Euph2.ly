@@ -40,7 +40,14 @@ euphtwo =
     \time 3/2 R1. |  d,1.\mf | b2 d b' | f1. | d\mark | R | b2 d b' |
     fs1. | d | b | b | R | R | bf2 df bf'\mark | 
     
-    fs1. | d | R1.*5 | bf2 df bf' | g1. | d | R | b2 d b' | f1. |
+    fs1. | d | R1.*5 | bf2 df bf' | g1.\mark 
+    
+    | d | R | b2 d b' | f1. |
+    d\< | R | b2 d b' | gf1.\mark |
+    
+    %Transposed Reiteration
+    ef1.\f | c2 ef c' | g1. | b,2 d b' | g1. | c,2 ef c' | g ef1 | c2 ef c' | 
+    ef,1. | b2 d b' | d,1. | b2 d b' | 
     
     %fs1. |  d1. | b2 d b' | f1. | d | R | R | bf2 df bf' | g1. | 
   }
