@@ -7,6 +7,7 @@
 \include "Tuba1.ly"
 \include "Tuba2.ly"
 
+
 \header {
   title = "Tuba - Euphonium Chorale"
   instrument = "Score"
@@ -14,6 +15,7 @@
 }
 
 #(set! paper-alist (cons '("my size" . (cons (* 9 in) (* 12 in))) paper-alist))
+%\removeWithTag #'part
 
 \paper {
   #(set-paper-size "my size")
@@ -27,18 +29,23 @@
 
 \score {
  <<
+
    %\tempo 2=55
    \new StaffGroup {
-    <<
-       \new Staff = "euph1" {
+    << 
+
+      \new Staff = "euph1" <<
+        \new Voice \include "rehearsal marks.ly"
+        \new Voice {
          \override Staff.InstrumentName.self-alignment-X = #CENTER
          %\set Staff.instrumentName = \markup \center-column= "E I" {"Eu. I"}
          \set Staff.instrumentName = "Euph I"
          %\set Staff.shortInstrumentName = "E.I"
          \set Staff.shortInstrumentName = \markup \center-column{"E.I"}
          \euphone
-       }
-       
+        }
+      >>
+        
        \new Staff  = "euph2" {
          \override Staff.InstrumentName.self-alignment-X = #CENTER
          %\set Staff.instrumentName = \markup \center-column {"Eu. II"}
@@ -46,6 +53,7 @@
          \set Staff.shortInstrumentName = "E.II"
          \euphtwo
        }
+       
        \new Staff  = "euph3" {
          \override Staff.InstrumentName.self-alignment-X = #CENTER
          %\set Staff.instrumentName = \markup \center-column {"Eu. III"}
@@ -53,6 +61,7 @@
          \set Staff.shortInstrumentName = "E.III"
          \euphthree
        }
+       
        \new Staff  = "euph4" {
          \override Staff.InstrumentName.self-alignment-X = #CENTER
          %\set Staff.instrumentName = \markup \center-column {"Eu. IV"}
@@ -60,9 +69,9 @@
          \set Staff.shortInstrumentName = "E.IV"
          \euphfour
        }
-     >>
+    >>
    }
-   
+
    \new StaffGroup {
      <<
        \new Staff = "tuba1" {
@@ -79,9 +88,14 @@
          \set Staff.shortInstrumentName = "T.II"
          \tubatwo
        }
+       
      >>
-   }
+    }
  >>
  
- %\midi {}
-}
+  %\midi {}
+ }
+
+ 
+
+%}

@@ -4,6 +4,7 @@
 \header {
   title = "Tuba - Euphonium Chorale"
   instrument = "Euphonium II"
+  tagline = ""
 }
 
 euphtwo = 
@@ -11,13 +12,12 @@ euphtwo =
     \clef "bass"
     \time 2/2
     \numericTimeSignature
-    \tempo "Lento"
     
     \override Score.RehearsalMark.outside-staff-priority = #1
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \set Score.markFormatter = #format-mark-box-alphabet
     
-    R1\fermataMarkup | R1 |  r2 c'\p \fermata | R1 | r2 c \fermata | R1 | r2 c \fermata \mark |
+    R1\fermataMarkup | R1 |  r2 c'\p \fermata | R1 | r2 c \fermata | R1 | r2 c \fermata %{\mark%} |
     
     \time 3/2
     
@@ -26,7 +26,7 @@ euphtwo =
     \time 4/2
     
     R\breve | c,2\p e c' a~ | a\breve | c,2\< e c' a | gf' df bf1\mf |
-    bf bf | bf bf\breathe \mark |
+    bf bf | bf bf\breathe %{\mark%} |
     
     %R | c,2 e c' a~ | a r g1\< | a~ a~\mf\> | a\breve~ | a\breve\breathe \mark |
     
@@ -34,22 +34,28 @@ euphtwo =
     
     \time 2/2 R1 | \time 5/2 r2 bf\breve |
     
-    \time 2/2 R1 | \time 5/2 r2 bf\breve\mark |
+    \time 2/2 R1 | \time 5/2 r2 bf\breve%{\mark%} |
     
-    \tempo "Faster"
-    \time 3/2 R1. |  d,1.\mf | b2 d b' | f1. | d\mark | R | b2 d b' |
-    fs1. | d | b | b | R | R | bf2 df bf'\mark | 
+    \time 3/2 R1. |  d,1.\mf | b2 d b' | f1. | d%{\mark%} | R | b2 d b' |
+    fs1. | d | b | b | R | R | bf2 df bf'%{\mark%} | 
     
-    fs1. | d | R1.*5 | bf2 df bf' | g1.\mark 
+    fs1. | d | R1.*5 | bf2 df bf' | g1.%{\mark%} 
     
     | d | R | b2 d b' | f1. |
-    d\< | R | b2 d b' | gf1.\mark |
+    d\< | R | b2 d b' | gf1.%{\mark%} |
     
     %Transposed Reiteration
     ef1.\f | c2 ef c' | g1. | b,2 d b' | g1. | c,2 ef c' | g ef1 | c2 ef c' | 
     ef,1. | b2 d b' | d,1. | b2 d b' | 
     
+    ef,1. | c2 ef c' | g1. | b,2 d b' | ef,1. | af,2 cf af' | g2 c,1 |  b2 d b' |
+    ef,1.\< | c2 ef c' | g1. | b,2 ds b' | f1. | c2 ef c' | ef,1. | e2 g e' | ef1.\ff\fermata |
     %fs1. |  d1. | b2 d b' | f1. | d | R | R | bf2 df bf' | g1. | 
   }
   
-{\new Staff \euphtwo}
+{\new Staff 
+ <<
+   \new Voice \include "rehearsal marks.ly"
+   \euphtwo
+  >>
+}
