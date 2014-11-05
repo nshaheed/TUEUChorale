@@ -53,14 +53,31 @@ tubatwo =
     
     c1.\<~ | c | ef~ | ef | c'~ | c | g~ | g | c,\ff\fermata
     
+    \time 2/2
+    R1 | c'\fermata\p | R1 | c\fermata | R1 | c\breathe | R1 | c\fermata |
+    R1 | c\fermata~ | c\< | e\mp\>~ | e\p\fermata | e~ | e\fermata~ | e\< |
+    
+    
+    \time 3/2
+    R1.*3\! | bf2 f bf, | d1.~ | d | a' | a | a2 c e, | a c e, 
+    
+    \time 4/2
+    
+    | R\breve * 4 | <<{a\breve} {s2 s s\< s}>> | 
+    
+    \time 2/2
+    R1\! | <<{c\p\fermata} {s4\> s s s\!}>>
+    
     %b1. | b1. | b1. | bf |
     
     
   }
-  
+
+%{
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \tubatwo
   >>
 }
+%}

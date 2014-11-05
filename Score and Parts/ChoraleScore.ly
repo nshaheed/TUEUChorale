@@ -14,7 +14,9 @@
   tagline = ""
 }
 
-#(set! paper-alist (cons '("my size" . (cons (* 9 in) (* 12 in))) paper-alist))
+%#(set! paper-alist (cons '("my size" . (cons (* 9 in) (* 12 in))) paper-alist))
+#(set! paper-alist (cons '("my size" . (cons (* 8.5 in) (* 11 in))) paper-alist))
+
 %\removeWithTag #'part
 
 \paper {

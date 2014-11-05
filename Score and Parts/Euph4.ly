@@ -51,11 +51,27 @@ euphfour =
     
     c\< | ef | c' | fs, | d | ef | c' | g | g\ff\fermata
     %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
+    
+    \time 2/2
+    
+    e1\p~ | e\fermata | e~ | e\fermata | e~ | e\breathe | e~ | e\fermata | e~ | e\fermata~
+    e\< | r2\! a\>~ | a1\fermata\p | r2 a~ | a1\fermata~ | a\< | 
+    
+    \time 3/2
+    bf,2\mp\> d bf' | f1.\p | bf, | bf | bf~ | bf | R1.*3 | c1. 
+    
+    \time 4/2
+    bf1 bf | R\breve | c2 e c' a~ | a\breve | <<{e\breve} {s1 s1\<}>> |
+    
+    \time 2/2
+    e\mp\>~ | <<{e\fermata} {s4 s s s\!}>>
   }
   
+%{
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \euphfour
   >>
 }
+%}

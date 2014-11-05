@@ -72,7 +72,7 @@ euphone =
     \time 2/2
     
     r1 | e\fermata\p | r1 | e\fermata | r1 | e\breathe | r1 | e\fermata | 
-    r1 | e\fermata | c | R1 | e | R1 | e~ | e\< | 
+    r1 | e\fermata | c\< | R1\! | e\p | R1 | e~ | e\< | 
     
     \time 3/2
     
@@ -84,13 +84,15 @@ euphone =
     
     \time 2/2
     
-    df1~\mp\> | df2 c\fermata\! | 
+    df1~\mp\> | df2 c\fermata\!
     
   }
   
+%{
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \euphone
   >>
 }
+%}

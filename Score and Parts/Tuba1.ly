@@ -51,14 +51,35 @@ tubaone =
     
     c,1.\<~ | c | ef~ | ef | c'~ | c | g~ | g | c\ff\fermata
     
+    \time 2/2
+    e,1\p~ | e\fermata | e1~ | e\fermata | e1~ | e\breathe | e1~ | e\fermata | e~ | 
+    e\fermata~ | e\< | e\mp\>~ | e\fermata\p | e~ | e\fermata~ | e\< |
+    
+    \time 3/2
+    
+    bf'1.\mp\>~ | 
+    
+    bf\p | bf2 f bf, | d1. | R1. | R1. | c' | c | c | a2 a,1 | 
+    
+    \time 4/2 
+    
+    bf1 ef | c\breve | c | c | <<{a\breve} {s2 s s\< s}>> | 
+    
+    \time 2/2
+    
+    e'1\mp\>~ | <<{e1\fermata} {s4 s s s\!}>>
+    
+    
     %| b | bf2 df bf' | f1. | d | R1.*2 | g2 bf g'
     
     %b1. | b1. | b | bf2 df bf' |
   }
   
+%{
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \tubaone
   >>
 }
+%}
