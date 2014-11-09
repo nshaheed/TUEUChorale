@@ -21,7 +21,7 @@ euphone =
     
     \time 3/2
     
-    c1\< r2\! | R1. | e,2\p a e' |  c1. | e,2 a e' |  c1. |
+    c1\< r2\! | R1. | e,2\p-> a e' |  c1. | e,2-> a e' |  c1. |
     
     \time 4/2
     
@@ -54,8 +54,8 @@ euphone =
     d\breve~ d2%{\mark%} |
     
     \time 3/2
-    b2\mf df1 | d!2 gf1 | f2 df1 | bf2 f1 | R1.%{\mark%} |
-    b2 df1 | d!2 df1 | d!2 f gf~ | gf d df~ | df d f | gf1 f2 |
+    b2\mf-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1 | R1.%{\mark%} |
+    b2-> df1 | d!2-> df1 | d!2-> f gf~-> | gf d df~ | df d f | gf1 f2 |
     gf2 g1 | bf1 d,2 | df1.%{\mark%} |
     
     b2 df1 | d!2 gf1 | f2 df1 | bf2 f1 | g2 bf1 | b!2 bf1 | b!2 df d~ | d b bf~ | bf r1%{\mark%} |
@@ -88,11 +88,9 @@ euphone =
     
   }
   
-%{
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \euphone
   >>
 }
-%}
