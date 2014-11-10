@@ -27,7 +27,7 @@ euphfour =
     
     \time 4/2
     
-    R\breve | R | c2 e c' a~ | a r g1\< | e f~\mf\> | f\breve~ | f\breve\breathe  |
+    R\breve | R | c2 e c' a~ | a r g1\< | e f~\mf\>-> | f\breve~ | f\breve\breathe  |
     %c2\p e c' a~ | a\breve | c,2\< e c' a | gf' df bf1\mf |
     %bf bf | bf bf\breathe \mark |
     
@@ -35,24 +35,26 @@ euphfour =
     
     \time 2/2 d1~ | \time 5/2 d\breve~ d2 |
     
-    \time 2/2 d1~ | \time 5/2 d\breve~ d2 |
+    \time 2/2 d1~ | \time 5/2 <<{d\breve~ d2} {s1 s1.\<}>> |
     
-    \time 3/2 b2\mf d b' | fs1. | d | R | b2 d b' | fs1. | d |
-    b2 d b' | fs1. | d | R 	| bf2 d bf' | g1. | df |
+    \time 3/2 b2\mf-> d b' | fs1. | d | R | b2-> d b' | fs1. | d |
+    b2-> d b' | fs1. | d | R 	| bf2-> d bf' | g1. | df |
     
-    R1. | b2 d b' | fs1. | df | R | g,2 bf g' | fs1. | df | g2 d bf | 
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
+    R1. | b2-> d b' | fs1. | df | R | g,2-> bf g' | fs1. | df\breathe | g2-> d bf | 
     
-    b d b' | fs1. | d | R | bf2\< d bf' | fs1. | d | R |  
+    b-> d b' | fs1. | d | R | bf2\<-> d bf' | fs1. | d | R |  
     
     % Transposed reiteration
-    R1. * 4 \! | c1.\f | ef | c' | g | c, | d | b' | fs | 
+    R1. * 4 \! | c1.\f-> | ef | c' | g | c,-> | d | b' | fs | 
     
-    R1. * 4 | af,1. | cf | c' | fs,
+    R1. * 4 | af,1.-> | cf | c' | fs,
     
-    c\< | ef | c' | fs, | d | ef | c' | g | g\ff\fermata
+    c\<-> | ef | c' | fs, | d-> | ef | c' | g | g\ff\fermata
     %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
     
     \time 2/2
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     
     e1\p~ | e\fermata | e~ | e\fermata | e~ | e\breathe | e~ | e\fermata | e~ | e\fermata~
     e\< | r2\! a\>~ | a1\fermata\p | r2 a~ | a1\fermata~ | a\< | 
@@ -61,17 +63,15 @@ euphfour =
     bf,2\mp\> d bf' | f1.\p | bf, | bf | bf~ | bf | R1.*3 | c1. 
     
     \time 4/2
-    bf1 bf | R\breve | c2 e c' a~ | a\breve | <<{e\breve} {s1 s1\<}>> |
+    bf1-> bf-> | R\breve | c2 e c' a~ | a\breve | <<{e\breve} {s1 s1\<}>> |
     
     \time 2/2
     e\mp\>~ | <<{e\fermata} {s4 s s s\!}>>
   }
   
-%{
-{\new Staff 
- <<
-   \new Voice \include "rehearsal marks.ly"
-   \euphfour
-  >>
-}
-%}
+% {\new Staff 
+%  <<
+%    \new Voice \include "rehearsal marks.ly"
+%    \euphfour
+%   >>
+% }

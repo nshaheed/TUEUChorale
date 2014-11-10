@@ -33,7 +33,7 @@ euphone =
     \time 4/2
     
     \compressFullBarRests
-    \override MultiMeasureRest.expand-limit = #3
+    \override MultiMeasureRest.expand-limit = #2
     g'\breve-> | R\breve*6\breathe %{\mark%} |
     
     \time 2/2
@@ -62,13 +62,25 @@ euphone =
     
     \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
     \time 3/2
-    b2\mf-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1 | R1.%{\mark%} |
+    %{
+    b2\mf-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1 | R1.% |
     b2-> df1 | d!2-> df1 | d!2-> f gf~-> | gf d df~-> | df\breathe d f | gf1-> f2 |
-    gf2-> g1 | bf1-> d,2 | df1.\breathe%{\mark%} |
+    gf2-> g1 | bf1-> d,2 | df1.\breathe |
     
-    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | g2-> bf1 | b!2-> bf1 | b!2-> df d~-> | d b bf~-> | bf r1%{\mark%} |
-    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | d2\<-> df1 | gf2-> f1 | d'2 df1-> | gf2 f1->%{\mark%} | 
+    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | g2-> bf1 | b!2-> bf1 | b!2-> df d~-> | d b bf~-> | bf r1{ |
+    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | d2\<-> df1 | gf2-> f1 | d'2 df1-> | gf2 f1-> | 
+    %}
     
+    R1.\! |  d,1.\mf | b2-> d b' | f1. | d | R | b2-> d b' |
+    fs1. | d | b | b | R | R | bf2-> df bf' | 
+    
+
+    
+    fs1. | d | R1.*5 | bf2-> df bf' | g1.
+    
+    | d | R | b2-> d b' | f1. |
+    d\< | R | b2-> d b' | gf1.\breathe | %<- Breath mark here
+
     % Transposed reiteration
     c2\f-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1 | c2-> d1 | ef2-> d1 | ef2-> gf g~-> | g ef gf | 
     g!1->\breathe gf2\< | g!-> af g | b1\!-> ef,2 | d1.\breathe | 
@@ -77,6 +89,7 @@ euphone =
     
     % Reprise
     
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \time 2/2
     
     r1 | e\fermata\p | r1 | e\fermata | r1 | e\breathe | r1 | e\fermata | 
@@ -84,21 +97,21 @@ euphone =
     
     \time 3/2
     
-    R1.\! | R1. | bf,2\p d bf' | f1. | R1. bf,2 d bf' | a1. | R1. | e2 a e' | c1. | 
+    R1. * 2\! | bf,2\p d bf' | f1. | R1. bf,2 d bf' | a1. | R1. | e2 a e' | c1. | 
      
     \time 4/2
      
-    g\breve | a\breve | R\breve | R | r1 gf'2\< df~ |
+    g\breve-> | a\breve | R\breve * 2 | r1 gf'2\<-> df~-> |
     
     \time 2/2
     
-    df1~\mp\> | df2 c\fermata\!
+    df1~\mp\> | df2 c\fermata\!--
     
   }
   
-{\new Staff 
- <<
-   \new Voice \include "rehearsal marks.ly"
-   \euphone
-  >>
-}
+% {\new Staff 
+%  <<
+%    \new Voice \include "rehearsal marks.ly"
+%    \euphone
+%   >>
+% }

@@ -25,33 +25,39 @@ tubaone =
     
     \time 3/2
     
-    c\< a2\mp\>~ | a1. | a\p~ | a2 c e, | a c e, | a c e, | 
-    \time 4/2
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
+    c\< a2\mp\>~-> | a1.\breathe | a\p~ | a2 c e,-> | a c e, | a c e, | 
     
-    bf'1 bf | R\breve | R | c\< | c1 f\mf~\> | f\breve~ | f\breathe |
+    \time 4/2
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
+    
+    bf'1-> bf-> | R\breve | R | c\< | c1 f\mf~\>-> | f\breve~ | f\breathe |
     
     \time 2/2 d,1\!\mp~ | \time 5/2 d\breve~ d2 |
     
     \time 2/2 d1~ | \time 5/2 d\breve~ d2 |
     
-    \time 2/2 d1~ | \time 5/2 d\breve~ d2 |
+    \time 2/2 d1~ | \time 5/2 <<{d\breve~ d2} {s1 s1.\<}>> |
     
-    \time 3/2 b1.\mf | b1. | b | bf2 df bf' | fs1. | b | 
-    b | b | b2 fs d | b d b' | fs1. | g, | g | g |
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
+    \time 3/2 b1.\mf | b1. | b | bf2-> df bf' | fs1.\breathe | b | 
+    b | b | b2-> fs d | b-> d b' | fs1.\breathe | g, | g | g |
     
-    r1 d'2 | b'1. | b2 fs d | bf df bf' | g1. | d2 g bf | b1. | R | g,2 bf g' |
+    r1 d'2 | b'1. | b2-> fs d | bf-> df bf' | g1.\breathe | d2-> g bf | b!1. | R | g,2-> bf g' |
     
     
-    fs1 b,2 | d1 b2 | b'1 b,2 | bf'1. | bf\< | R | b2 fs d | ef gf ef' | 
+    fs1\breathe b,2-> | d1 b2-> | b'1 b,2-> | bf'1. | bf\< | R | b2-> fs d | ef-> gf ef' | 
     
     % Transposed Reiteration
     R1. * 12\!
     
     R1. * 8 
     
-    c,1.\<~ | c | ef~ | ef | c'~ | c | g~ | g | c\ff\fermata
+    c,1.\f\<~-> | c | ef~-> | ef | c'~-> | c | g~-> | g | c\ff\fermata
     
     \time 2/2
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
+    
     e,1\p~ | e\fermata | e1~ | e\fermata | e1~ | e\breathe | e1~ | e\fermata | e~ | 
     e\fermata~ | e\< | e\mp\>~ | e\fermata\p | e~ | e\fermata~ | e\< |
     
@@ -59,11 +65,11 @@ tubaone =
     
     bf'1.\mp\>~ | 
     
-    bf\p | bf2 f bf, | d1. | R1. | R1. | c' | c | c | a2 a,1 | 
+    bf\p | bf2 f bf, | d1. | R1. | R1. | c' | c | c | a2 a,1-> | 
     
     \time 4/2 
     
-    bf1 ef | c\breve | c | c | <<{a\breve} {s2 s s\< s}>> | 
+    bf1-> ef-> | c\breve | c | c | <<{a\breve} {s2 s s\< s}>> | 
     
     \time 2/2
     
@@ -75,11 +81,9 @@ tubaone =
     %b1. | b1. | b | bf2 df bf' |
   }
   
-%{
-{\new Staff 
- <<
-   \new Voice \include "rehearsal marks.ly"
-   \tubaone
-  >>
-}
-%}
+% {\new Staff 
+%  <<
+%    \new Voice \include "rehearsal marks.ly"
+%    \tubaone
+%   >>
+% }
