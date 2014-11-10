@@ -7,6 +7,10 @@
     tagline = ""
 }
 
+%rr = \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
+%b  = \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
+
+
 euphone = 
   \relative c' {
     \clef "bass"
@@ -21,13 +25,16 @@ euphone =
     
     \time 3/2
     
-    c1\< r2\! | R1. | e,2\p-> a e' |  c1. | e,2-> a e' |  c1. |
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
     
+    c1\< r2\! | R1. | e,2\p a e' |  c1.\breathe | e,2 a e' |  c1. |
+    
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \time 4/2
     
     \compressFullBarRests
     \override MultiMeasureRest.expand-limit = #3
-    g'\breve | R\breve*6\breathe %{\mark%} |
+    g'\breve-> | R\breve*6\breathe %{\mark%} |
     
     \time 2/2
     
@@ -51,21 +58,22 @@ euphone =
     
     \time 5/2
     
-    d\breve~ d2%{\mark%} |
+    <<{d\breve~ d2%{\mark%}} {s1 s1.\<}>> |
     
+    \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
     \time 3/2
     b2\mf-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1 | R1.%{\mark%} |
-    b2-> df1 | d!2-> df1 | d!2-> f gf~-> | gf d df~ | df d f | gf1 f2 |
-    gf2 g1 | bf1 d,2 | df1.%{\mark%} |
+    b2-> df1 | d!2-> df1 | d!2-> f gf~-> | gf d df~-> | df\breathe d f | gf1-> f2 |
+    gf2-> g1 | bf1-> d,2 | df1.\breathe%{\mark%} |
     
-    b2 df1 | d!2 gf1 | f2 df1 | bf2 f1 | g2 bf1 | b!2 bf1 | b!2 df d~ | d b bf~ | bf r1%{\mark%} |
-    b2 df1 | d!2 gf1 | f2 df1 | bf2 f1 | d2\< df1 | gf2 f1 | d'2 df1 | gf2 f1%{\mark%} | 
+    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | g2-> bf1 | b!2-> bf1 | b!2-> df d~-> | d b bf~-> | bf r1%{\mark%} |
+    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | d2\<-> df1 | gf2-> f1 | d'2 df1-> | gf2 f1->%{\mark%} | 
     
     % Transposed reiteration
-    c2\f d1 | ef2 g1 | gf2 d1 | b2 gf1 | c2 d1 | ef2 d1 | ef2 gf g~ | g ef gf | 
-    g!1 gf2 | g! af g | b1 ef,2 | d1. | 
-    c2 d1 | ef2 g1 | gf2 d1 | b2 gf1 | af2 b1 | c2 b1 | c2 d ef~ | ef c b | c\< d1 |
-    ef2 g1 | gf2 d1 | b2 gf1 | ef2 d1 | g2 gf1 | ef'2 d1 | g2 gf1 | g!1.\ff\fermata
+    c2\f-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1 | c2-> d1 | ef2-> d1 | ef2-> gf g~-> | g ef gf | 
+    g!1->\breathe gf2\< | g!-> af g | b1\!-> ef,2 | d1.\breathe | 
+    c2-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1\breathe | af2-> b1 | c2-> b1 | c2-> d ef~-> | ef c b | c\<-> d1 |
+    ef2-> g1 | gf2-> d1 | b2-> gf1 | ef2-> d1 | g2-> gf1 | ef'2 d1-> | g2 gf1-> | g!1.\ff\fermata
     
     % Reprise
     
