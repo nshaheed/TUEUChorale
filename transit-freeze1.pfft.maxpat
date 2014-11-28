@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 8.0, 50.0, 1366.0, 640.0 ],
+		"rect" : [ 691.0, 50.0, 667.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -131,8 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 535.0, 261.0, 18.0 ],
-					"text" : "read /MixedSignalMatrices/euphmix5-record.jxf"
+					"patching_rect" : [ 35.0, 535.0, 267.0, 18.0 ],
+					"text" : "read /MixedSignalMatrices/euphmix5-record1.jxf"
 				}
 
 			}
@@ -145,8 +145,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 490.0, 248.0, 18.0 ],
-					"text" : "read /MixedSignalMatrices/euphmix5-play.jxf"
+					"patching_rect" : [ 35.0, 490.0, 255.0, 18.0 ],
+					"text" : "read /MixedSignalMatrices/euphmix5-play1.jxf"
 				}
 
 			}
