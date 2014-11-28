@@ -51,14 +51,14 @@ tubaone =
     % Transposed Reiteration
     R1. * 12\!
     
-    R1. * 8 
+    %{ R1. * 8 %}
     
     c,1.\f\<~-> | c | ef~-> | ef | c'~-> | c | g~-> | g | c\ff\fermata
     
     \time 2/2
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     
-    e,1\p~ | e\fermata | e1~ | e\fermata | e1~ | e\breathe | e1~ | e\fermata | e~ | 
+    e,1\p~ | e\fermata | %{ e1~ | e\fermata | e1~ | e\fermata |%} e1~ | e\fermata | e~ | 
     e\fermata~ | e\< | e\mp\>~ | e\fermata\p | e~ | e\fermata~ | e\< |
     
     \time 3/2

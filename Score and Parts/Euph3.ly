@@ -52,14 +52,14 @@ euphthree =
     c2\f-> ef c' | g1. | c,2-> ef c' | fs,1. | c2-> ef c' | g1. | c,2-> ef c' | ef,1. | 
     c2-> ef c' | fs,1. | b,2-> d b' | b,1. | 
     
-    c2-> ef c' | g1. | c,2-> ef c' | fs,1. | af,2-> cf af' | ef1. | c2-> ef c' | d,1. |
+    %{ c2-> ef c' | g1. | c,2-> ef c' | fs,1. | af,2-> cf af' | ef1. | c2-> ef c' | d,1. |%}
     
     c2\<-> ef c' | g1. | c,2-> ef c' | g1. | d2-> f d' | g,1. | c,2-> ef c' | b1. | c\ff\fermata |
     
     \time 2/2 
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }	
     
-    r2 a2\p~ | a1\fermata | r2 a2~ | a1\fermata | r2 a2~ | a1\breathe |
+    r2 a2\p~ | a1\fermata | %{ r2 a2~ | a1\fermata | r2 a2~ | a1\fermata |%}
     r2 a2~ | a1\fermata | r2 a2~ | a1\fermata~ | 
 
     a1\< | R1\! | r2 c\fermata\p | R1 | r2 c\fermata | gf'\<-> df | 

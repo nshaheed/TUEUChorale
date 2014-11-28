@@ -48,7 +48,7 @@ euphfour =
     % Transposed reiteration
     R1. * 4 \! | c1.\f-> | ef | c' | g | c,-> | d | b' | fs | 
     
-    R1. * 4 | af,1.-> | cf | c' | fs,
+    %{ R1. * 4 | af,1.-> | cf | c' | fs,%}
     
     c\<-> | ef | c' | fs, | d-> | ef | c' | g | g\ff\fermata
     %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
@@ -56,7 +56,7 @@ euphfour =
     \time 2/2
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     
-    e1\p~ | e\fermata | e~ | e\fermata | e~ | e\breathe | e~ | e\fermata | e~ | e\fermata~
+    e1\p~ | e\fermata | %{ e~ | e\fermata | e~ | e\fermata |%} e~ | e\fermata | e~ | e\fermata~
     e\< | r2\! a\>~ | a1\fermata\p | r2 a~ | a1\fermata~ | a\< | 
     
     \time 3/2

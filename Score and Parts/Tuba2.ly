@@ -50,14 +50,14 @@ tubatwo =
     % Transposed reiteriation
     R1. * 12\!
     
-    R1. * 8 
+   %{  R1. * 8 %}
     
     c1.\f\<~-> | c | ef~-> | ef | c'~-> | c | g~-> | g | c,\ff\fermata
     
     \time 2/2
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     
-    R1 | c'\fermata\p | R1 | c\fermata | R1 | c\breathe | R1 | c\fermata |
+    R1 | c'\fermata\p | %{ R1 | c\fermata | R1 | c\fermata |%} R1 | c\fermata |
     R1 | c\fermata~ | c\< | e\mp\>~ | e\p\fermata | e~ | e\fermata~ | e\< |
     
     

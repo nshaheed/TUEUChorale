@@ -65,13 +65,13 @@ euphtwo =
     ef,1.\f  | c2-> ef c' | g1. | b,2-> d b' | g1. | c,2-> ef c' | g ef1-> | c2-> ef c' | 
     ef,1. | b2-> d b' | d,1. | b2-> d b' | 
     
-    ef,1. | c2-> ef c' | g1. | b,2-> d b' | ef,1. | af,2-> cf af' | g2 c,1-> |  b2-> d b' |
+    %{ ef,1. | c2-> ef c' | g1. | b,2-> d b' | ef,1. | af,2-> cf af' | g2 c,1-> |  b2-> d b' |%}
     ef,1.\< | c2-> ef c' | g1. | b,2-> ds b' | f1. | c2-> ef c' | ef,1. | e2-> g e' | ef1.\ff\fermata |
     
     % Recap
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \time 2/2
-    R1 | r2 c\fermata\p | R1 | r2 c\fermata | R1 | r2 c\breathe | R1 | r2 c\fermata |
+    R1 | r2 c\fermata\p | %{ R1 | r2 c\fermata | R1 | r2 c\fermata |%} R1 | r2 c\fermata |
     R1 | r2 c\fermata | gf'\<-> df | a'1~\mp\>-> | a\p | a~-- | a | a\<-- |  
     
     \time 3/2

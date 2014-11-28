@@ -84,7 +84,7 @@ euphone =
     % Transposed reiteration
     c2\f-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1 | c2-> d1 | ef2-> d1 | ef2-> gf g~-> | g ef gf | 
     g!1->\breathe gf2\< | g!-> af g | b1\!-> ef,2 | d1.\breathe | 
-    c2-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1\breathe | af2-> b1 | c2-> b1 | c2-> d ef~-> | ef c b | c\<-> d1 |
+    %{ c2-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1\breathe | af2-> b1 | c2-> b1 | c2-> d ef~-> | ef c b |%} c2\<-> d1 |
     ef2-> g1 | gf2-> d1 | b2-> gf1 | ef2-> d1 | g2-> gf1 | ef'2 d1-> | g2 gf1-> | g!1.\ff\fermata
     
     % Reprise
@@ -92,8 +92,8 @@ euphone =
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \time 2/2
     
-    r1 | e\fermata\p | r1 | e\fermata | r1 | e\breathe | r1 | e\fermata | 
-    r1 | e\fermata | c\< | R1\! | e\p | R1 | e~ | e\< | 
+    R1 | e\fermata\p | %{ R1 | e\fermata | R1 | e\fermata |%} R1 | e\fermata | 
+    R1 | e\fermata | c\< | R1\! | e\p | R1 | e~ | e\< | 
     
     \time 3/2
     

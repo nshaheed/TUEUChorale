@@ -15,11 +15,11 @@ s1. * 9 \mark \default
 s1. * 9 \mark \default
 s1. * 8 \mark \default 
 s1. * 12 \mark \default
-s1. * 8 \mark \default
+%s1. * 8 \mark \default
 s1. * 9 \mark \default
 
 
-s1 * 16 \mark \default
+s1 * 12 \mark \default
 
 
 s1. * 10 
