@@ -6,7 +6,7 @@
 \include "Euph4.ly"
 \include "Tuba1.ly"
 \include "Tuba2.ly"
-
+\include "electronics.ly"
 
 \header {
   title = "Tuba - Euphonium Chorale"
@@ -92,6 +92,15 @@
        }
        
      >>
+    }
+    
+    \new StaffGroup {
+      <<
+      \override Staff.InstrumentName.self-alignment-X = #CENTER
+      \set Staff.instrumentName = "Elec."
+      \set Staff.shortInstrumentName = "Elec."
+      \electronics
+      >>
     }
  >>
  
