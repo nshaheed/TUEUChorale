@@ -51,6 +51,7 @@ euphfour =
     %{ R1. * 4 | af,1.-> | cf | c' | fs,%}
     
     c\<-> | ef | c' | fs, | d-> | ef | c' | g | g\ff\fermata
+    R1.\fermataMarkup | 
     %b2 d b' | fs1. | d | R1.*2 | g,2 bf g' | fs1. | df | R
     
     \time 2/2

@@ -53,7 +53,8 @@ tubaone =
     
     %{ R1. * 8 %}
     
-    c,1.\f\<~-> | c | ef~-> | ef | c'~-> | c | g~-> | g | c\ff\fermata
+    c,1.\f\<~-> | c | ef~-> | ef | c'~-> | c | g~-> | g | c\ff\fermata |
+    R1.\fermataMarkup | 
     
     \time 2/2
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }

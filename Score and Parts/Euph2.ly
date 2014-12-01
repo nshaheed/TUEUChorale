@@ -67,6 +67,7 @@ euphtwo =
     
     %{ ef,1. | c2-> ef c' | g1. | b,2-> d b' | ef,1. | af,2-> cf af' | g2 c,1-> |  b2-> d b' |%}
     ef,1.\< | c2-> ef c' | g1. | b,2-> ds b' | f1. | c2-> ef c' | ef,1. | e2-> g e' | ef1.\ff\fermata |
+    R1.\fermataMarkup |
     
     % Recap
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }

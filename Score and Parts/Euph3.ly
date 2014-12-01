@@ -55,6 +55,7 @@ euphthree =
     %{ c2-> ef c' | g1. | c,2-> ef c' | fs,1. | af,2-> cf af' | ef1. | c2-> ef c' | d,1. |%}
     
     c2\<-> ef c' | g1. | c,2-> ef c' | g1. | d2-> f d' | g,1. | c,2-> ef c' | b1. | c\ff\fermata |
+    R1.\fermataMarkup | 
     
     \time 2/2 
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }	
