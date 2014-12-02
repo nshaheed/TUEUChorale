@@ -34,15 +34,28 @@ electronics =
     
     \time 2/2 s1 |
     \time 5/2 r1 c'4\< s4 g4 s2. | 
-    \time 3/2 a4\! s4 s1 | s1. * 30  | f'4 s4 s1 | s1. * 11 | 
-    c4\< s4 s1 | s1. * 7 | s1.\fermata\! | e4 s4 s1\fermata | 
+    \time 3/2 a4\! s4 s1 | s1. * 30  | f4 s4 s1 | s1. * 11 | 
+    e4\< s4 s1 | s1. * 7 | s1.\fermata\! | 
+    <<{g4 s4 s1} {s1.\fermata}>> | 
+    
+    \time 2/2 b4 s2. | s1 | s1 | r2 g4 s4 | s1 | r2 b4\< s4 | 
+    s1 | a4\!\> s4 s2 | s1\! | s1 | r2 b4\< s4 | s1 | 
+    
+    \time 3/2 <<{a4\!\>} {d4}>> s4 s1 | d4\! s4 s1 | 
+    d4 s4 s1 | d4 s4 s1 | d4 s4 s1 | d4 s4 s1 | d4 s4 s1 | 
+    d4 s4 s1 | d4 s4 s1 | d4 s4 s1 | 
+    
+    \time 4/2 f4 s4 s1. | f4 s4 s1. | f4 s4 s1. | a4\< s4 s1. | 
+    s\breve | 
+    
+    \time 2/2 a,4\!\> s4 s2 | r2\! c4\fermata e\fermata | 
     
     
   }
   
-{\new Staff 
- <<
-   \new Voice \include "rehearsal marks.ly"
-   \electronics
-  >>
-}
+% {\new Staff 
+%  <<
+%    \new Voice \include "rehearsal marks.ly"
+%    \electronics
+%   >>
+% }
