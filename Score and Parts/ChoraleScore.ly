@@ -1,19 +1,14 @@
 \version "2.18.2"
 \language "english"
 \include "Euph1.ly"
-\include "Euph2.ly"
+\include "Euph2.ly" 
 \include "Euph3.ly"
 \include "Euph4.ly"
 \include "Tuba1.ly"
 \include "Tuba2.ly"
 \include "electronics.ly"
 
-\header {
-  title = "Tuba - Euphonium Chorale"
-  instrument = "Score"
-  composer = "Nicholas Shaheed"
-  tagline = ""
-}
+
 
 #(set! paper-alist (cons '("my size" . (cons (* 12 in) (* 9 in))) paper-alist))
 %#(set! paper-alist (cons '("my size" . (cons (* 8.5 in) (* 11 in))) paper-alist))
@@ -23,14 +18,43 @@
 \paper {
   #(set-paper-size "my size")
  %left-margin = 3\cm 
+ 
+  indent = 6\mm
+  top-margin = 20\mm
+%   scoreTitleMarkup = \markup {
+%     \fill-line {
+%       \null
+%       \override #'(font-name . "Albertus")
+%       \fontsize #7 \bold \fromproperty #'header:title
+%       \fontsize #3 \fromproperty #'header:composer
+%     }
+%  }
 }
 
+  \header {
+  %title = "Tuba - Euphonium Chorale"
+  title = \markup {
+          \fontsize #7 
+          \override #'(font-name . "Calibri")
+          %\sans
+          "Tuba-Euphonium Chorale"}
+  instrument = ##f
+  composer = \markup { 
+          \fontsize #3
+          \override #'(font-name . "Calibri")
+          "Nicholas Shaheed"
+          }
+  }
+  
 \layout {
   indent = 2.3\cm
   short-indent = 1.5\cm
 }
 
+\header { tagline = ##f}
+
 \score {
+
  <<
 
    %\tempo 2=55
