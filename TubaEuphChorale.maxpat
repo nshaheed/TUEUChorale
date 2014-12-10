@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 8,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 1366.0, 640.0 ],
+		"rect" : [ 0.0, 44.0, 1106.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-133",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 392.0, 822.0, 47.0, 20.0 ],
+					"text" : "curve~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -56,7 +70,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -102,8 +116,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 272.0, 167.0, 50.0, 198.0 ],
-									"text" : "prefix \"C:/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics./Bindings/\""
+									"patching_rect" : [ 272.0, 167.0, 40.0, 192.0 ],
+									"text" : "prefix \"Macintosh HD:/Users/n704s313/Desktop/TUEUChorale/Bindings/\""
 								}
 
 							}
@@ -116,8 +130,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 168.0, 89.0, 154.0, 20.0 ],
-									"text" : "loadmess prefix ./Bindings/"
+									"patching_rect" : [ 168.0, 89.0, 151.0, 20.0 ],
+									"text" : "loadmess prefix /Bindings/"
 								}
 
 							}
@@ -217,7 +231,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1008.561768, 2.0, 175.438232, 20.0 ],
-					"prefix" : "C:/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics./Bindings/"
+					"prefix" : "Macintosh HD:/Users/n704s313/Desktop/TUEUChorale/Bindings/"
 				}
 
 			}
@@ -236,10 +250,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 691.0, 50.0, 667.0, 624.0 ],
+						"rect" : [ 299.0, 84.0, 667.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -258,6 +272,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -914,7 +929,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 8.0, 76.0, 640.0, 454.0 ],
@@ -1202,7 +1217,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 58.0, 100.0, 640.0, 480.0 ],
@@ -1424,7 +1439,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 8.0, 76.0, 1366.0, 614.0 ],
@@ -2995,7 +3010,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 58.0, 100.0, 640.0, 480.0 ],
@@ -3433,7 +3448,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3698,7 +3713,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3735,7 +3750,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4083,7 +4098,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4354,7 +4369,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 58.0, 100.0, 640.0, 480.0 ],
@@ -4965,7 +4980,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -5150,7 +5165,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -5402,7 +5417,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -5537,7 +5552,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 35.0, 76.0, 640.0, 480.0 ],
@@ -5655,7 +5670,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 355.0, 157.0, 640.0, 480.0 ],
@@ -6171,7 +6186,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -6537,7 +6552,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -6732,7 +6747,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -6889,7 +6904,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 718.0, 126.0, 640.0, 428.0 ],
@@ -7597,7 +7612,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 253.0, 127.0, 640.0, 454.0 ],
@@ -7895,7 +7910,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 2180.0, 41.0, 851.0, 454.0 ],
@@ -8356,7 +8371,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 108.0, 150.0, 640.0, 480.0 ],
@@ -8522,7 +8537,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 153.0, 640.0, 480.0 ],
@@ -8978,7 +8993,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 133.0, 175.0, 640.0, 480.0 ],
@@ -9144,7 +9159,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 153.0, 640.0, 480.0 ],
@@ -9600,7 +9615,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 158.0, 200.0, 640.0, 480.0 ],
@@ -9766,7 +9781,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 153.0, 640.0, 480.0 ],
@@ -10222,7 +10237,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 83.0, 125.0, 640.0, 480.0 ],
@@ -10388,7 +10403,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 153.0, 640.0, 480.0 ],
@@ -10844,7 +10859,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 58.0, 100.0, 640.0, 480.0 ],
@@ -11010,7 +11025,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 153.0, 640.0, 480.0 ],
@@ -11466,7 +11481,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 616.0, 162.0, 640.0, 480.0 ],
@@ -11660,7 +11675,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 8,
-															"architecture" : "x64"
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 626.0, 283.0, 640.0, 350.0 ],
@@ -12800,7 +12815,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -12960,7 +12975,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -13259,7 +13274,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 42.0, 212.0, 640.0, 428.0 ],
@@ -13612,7 +13627,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 592.0, 83.0, 79.0, 58.0 ],
-									"text" : ";\r\namp 0.5;\r\nmodrate 0.1;\r\nfreq 1000."
+									"text" : ";\ramp 0.5;\rmodrate 0.1;\rfreq 1000."
 								}
 
 							}
@@ -14253,7 +14268,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -14489,7 +14504,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 22.0, 98.0, 640.0, 480.0 ],
@@ -14689,7 +14704,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 355.0, 157.0, 640.0, 480.0 ],
@@ -15142,7 +15157,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -15300,7 +15315,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 22.0, 98.0, 640.0, 480.0 ],
@@ -15545,7 +15560,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.932983, 48.545456, 71.0, 73.0 ],
+					"patching_rect" : [ 786.932983, 48.545456, 73.0, 75.0 ],
 					"text" : "send loadbang bang, send loadmess bang"
 				}
 
@@ -15676,7 +15691,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 58.0, 100.0, 640.0, 480.0 ],
@@ -15884,7 +15899,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -16313,7 +16328,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 591.0, 50.0, 767.0, 559.0 ],
@@ -16724,7 +16739,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 852.0, 73.0, 640.0, 480.0 ],
@@ -17212,7 +17227,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -18426,7 +18441,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 833.5, 481.933777, 18.0, 50.0 ],
 					"size" : 3,
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -18470,7 +18485,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -18577,7 +18592,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x64"
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 30.0, 50.0, 1047.0, 624.0 ],
@@ -20806,7 +20821,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 344.0, 50.0, 1014.0, 590.0 ],
@@ -21718,7 +21733,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 375.0, 194.0, 640.0, 480.0 ],
@@ -22683,7 +22698,7 @@
 					"destination" : [ "obj-79", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.5, 576.0, 129.166667, 576.0 ],
+					"midpoints" : [ 26.5, 576.0, 129.166672, 576.0 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -22950,7 +22965,7 @@
 					"destination" : [ "obj-194", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 906.25, 162.742104, 713.581543, 162.742104 ],
+					"midpoints" : [ 906.25, 162.742111, 713.581543, 162.742111 ],
 					"source" : [ "obj-125", 2 ]
 				}
 
@@ -22970,7 +22985,7 @@
 					"destination" : [ "obj-202", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 961.0, 160.564476, 1018.061768, 160.564476 ],
+					"midpoints" : [ 961.0, 160.564468, 1018.061768, 160.564468 ],
 					"source" : [ "obj-125", 5 ]
 				}
 
@@ -22990,7 +23005,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 997.5, 158.435524, 1065.878784, 158.435524 ],
+					"midpoints" : [ 997.5, 158.435532, 1065.878784, 158.435532 ],
 					"source" : [ "obj-125", 7 ]
 				}
 
@@ -23010,7 +23025,7 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1015.75, 160.742104, 919.0, 160.742104 ],
+					"midpoints" : [ 1015.75, 160.742111, 919.0, 160.742111 ],
 					"source" : [ "obj-125", 8 ]
 				}
 
@@ -23122,7 +23137,7 @@
 					"destination" : [ "obj-249", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1102.572266, 313.0, 599.0, 313.0, 599.0, 65.000002, 713.581543, 65.000002 ],
+					"midpoints" : [ 1102.572266, 313.0, 599.0, 313.0, 599.0, 65.0, 713.581543, 65.0 ],
 					"source" : [ "obj-132", 0 ]
 				}
 
@@ -23296,7 +23311,7 @@
 					"destination" : [ "obj-172", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1088.75, 83.203456, 1248.5, 83.203456 ],
+					"midpoints" : [ 1088.75, 83.203453, 1248.5, 83.203453 ],
 					"source" : [ "obj-137", 12 ]
 				}
 
@@ -23306,7 +23321,7 @@
 					"destination" : [ "obj-172", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 961.0, 75.0, 1228.666667, 75.0 ],
+					"midpoints" : [ 961.0, 75.0, 1228.666626, 75.0 ],
 					"source" : [ "obj-137", 5 ]
 				}
 
@@ -23316,7 +23331,7 @@
 					"destination" : [ "obj-172", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 924.5, 75.0, 1208.833333, 75.0 ],
+					"midpoints" : [ 924.5, 75.0, 1208.833374, 75.0 ],
 					"source" : [ "obj-137", 3 ]
 				}
 
@@ -23336,7 +23351,7 @@
 					"destination" : [ "obj-172", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 888.0, 77.0, 1169.166667, 77.0 ],
+					"midpoints" : [ 888.0, 77.0, 1169.166626, 77.0 ],
 					"source" : [ "obj-137", 1 ]
 				}
 
@@ -23346,7 +23361,7 @@
 					"destination" : [ "obj-172", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 869.75, 74.0, 1149.333333, 74.0 ],
+					"midpoints" : [ 869.75, 74.0, 1149.333374, 74.0 ],
 					"source" : [ "obj-137", 0 ]
 				}
 
@@ -23356,7 +23371,7 @@
 					"destination" : [ "obj-217", 7 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1088.75, 75.7524, 1005.75, 75.7524 ],
+					"midpoints" : [ 1088.75, 75.752403, 1005.75, 75.752403 ],
 					"source" : [ "obj-137", 12 ]
 				}
 
@@ -23366,7 +23381,7 @@
 					"destination" : [ "obj-217", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 979.25, 75.7524, 986.321429, 75.7524 ],
+					"midpoints" : [ 979.25, 75.752403, 986.321411, 75.752403 ],
 					"source" : [ "obj-137", 6 ]
 				}
 
@@ -23376,7 +23391,7 @@
 					"destination" : [ "obj-217", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 961.0, 74.0, 966.892857, 74.0 ],
+					"midpoints" : [ 961.0, 74.0, 966.892883, 74.0 ],
 					"source" : [ "obj-137", 5 ]
 				}
 
@@ -23386,7 +23401,7 @@
 					"destination" : [ "obj-217", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 942.75, 74.0, 947.464286, 74.0 ],
+					"midpoints" : [ 942.75, 74.0, 947.464294, 74.0 ],
 					"source" : [ "obj-137", 4 ]
 				}
 
@@ -23396,7 +23411,7 @@
 					"destination" : [ "obj-217", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 924.5, 76.0, 928.035714, 76.0 ],
+					"midpoints" : [ 924.5, 76.0, 928.035706, 76.0 ],
 					"source" : [ "obj-137", 3 ]
 				}
 
@@ -23406,7 +23421,7 @@
 					"destination" : [ "obj-217", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 888.0, 76.0, 908.607143, 76.0 ],
+					"midpoints" : [ 888.0, 76.0, 908.607117, 76.0 ],
 					"source" : [ "obj-137", 1 ]
 				}
 
@@ -23416,7 +23431,7 @@
 					"destination" : [ "obj-217", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 869.75, 76.0, 889.178571, 76.0 ],
+					"midpoints" : [ 869.75, 76.0, 889.178589, 76.0 ],
 					"source" : [ "obj-137", 0 ]
 				}
 
@@ -23426,7 +23441,7 @@
 					"destination" : [ "obj-228", 9 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1088.75, 83.203456, 1472.102295, 83.203456 ],
+					"midpoints" : [ 1088.75, 83.203453, 1472.102295, 83.203453 ],
 					"source" : [ "obj-137", 12 ]
 				}
 
@@ -23436,7 +23451,7 @@
 					"destination" : [ "obj-228", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1070.5, 83.824377, 1453.324517, 83.824377 ],
+					"midpoints" : [ 1070.5, 83.824379, 1453.324463, 83.824379 ],
 					"source" : [ "obj-137", 11 ]
 				}
 
@@ -23446,7 +23461,7 @@
 					"destination" : [ "obj-228", 7 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1034.0, 83.824377, 1434.546739, 83.824377 ],
+					"midpoints" : [ 1034.0, 83.824379, 1434.546753, 83.824379 ],
 					"source" : [ "obj-137", 9 ]
 				}
 
@@ -23456,7 +23471,7 @@
 					"destination" : [ "obj-228", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1015.75, 83.203456, 1415.768962, 83.203456 ],
+					"midpoints" : [ 1015.75, 83.203453, 1415.768921, 83.203453 ],
 					"source" : [ "obj-137", 8 ]
 				}
 
@@ -23466,7 +23481,7 @@
 					"destination" : [ "obj-228", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 997.5, 83.824377, 1396.991184, 83.824377 ],
+					"midpoints" : [ 997.5, 83.824379, 1396.991211, 83.824379 ],
 					"source" : [ "obj-137", 7 ]
 				}
 
@@ -23476,7 +23491,7 @@
 					"destination" : [ "obj-228", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 979.25, 83.824377, 1378.213406, 83.824377 ],
+					"midpoints" : [ 979.25, 83.824379, 1378.213379, 83.824379 ],
 					"source" : [ "obj-137", 6 ]
 				}
 
@@ -23486,7 +23501,7 @@
 					"destination" : [ "obj-228", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 961.0, 84.445299, 1359.435628, 84.445299 ],
+					"midpoints" : [ 961.0, 84.445297, 1359.435669, 84.445297 ],
 					"source" : [ "obj-137", 5 ]
 				}
 
@@ -23496,7 +23511,7 @@
 					"destination" : [ "obj-228", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 942.75, 84.0, 1340.657851, 84.0 ],
+					"midpoints" : [ 942.75, 84.0, 1340.657837, 84.0 ],
 					"source" : [ "obj-137", 4 ]
 				}
 
@@ -23506,7 +23521,7 @@
 					"destination" : [ "obj-228", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 924.5, 83.0, 1321.880073, 83.0 ],
+					"midpoints" : [ 924.5, 83.0, 1321.880127, 83.0 ],
 					"source" : [ "obj-137", 3 ]
 				}
 
@@ -23525,7 +23540,7 @@
 					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 78.0, 397.0, 128.166667, 397.0 ],
+					"midpoints" : [ 78.0, 397.0, 128.166672, 397.0 ],
 					"source" : [ "obj-139", 0 ]
 				}
 
@@ -23619,7 +23634,7 @@
 					"destination" : [ "obj-236", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1116.5, 312.272705, 1099.09082, 312.272705, 1099.09082, 37.727273, 1336.832642, 37.727273 ],
+					"midpoints" : [ 1116.5, 312.272705, 1099.09082, 312.272705, 1099.09082, 37.727272, 1336.832642, 37.727272 ],
 					"source" : [ "obj-145", 0 ]
 				}
 
@@ -23629,7 +23644,7 @@
 					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1116.5, 310.0, 1121.0, 310.0, 1121.0, 197.0, 760.0, 197.0, 760.0, 66.818182, 599.5, 66.818182 ],
+					"midpoints" : [ 1116.5, 310.0, 1121.0, 310.0, 1121.0, 197.0, 760.0, 197.0, 760.0, 66.818184, 599.5, 66.818184 ],
 					"source" : [ "obj-145", 0 ]
 				}
 
@@ -23658,7 +23673,7 @@
 					"destination" : [ "obj-137", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1096.280884, 32.90883, 869.75, 32.90883 ],
+					"midpoints" : [ 1096.280884, 32.908829, 869.75, 32.908829 ],
 					"source" : [ "obj-148", 1 ]
 				}
 
@@ -23695,7 +23710,7 @@
 					"destination" : [ "obj-148", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 947.682983, 29.804223, 993.474102, 29.804223, 993.474102, 10.555662, 1018.061768, 10.555662 ],
+					"midpoints" : [ 947.682983, 29.804222, 993.474121, 29.804222, 993.474121, 10.555662, 1018.061768, 10.555662 ],
 					"source" : [ "obj-150", 0 ]
 				}
 
@@ -23831,7 +23846,7 @@
 					"destination" : [ "obj-20", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 100.0, 391.0, 137.833333, 391.0 ],
+					"midpoints" : [ 100.0, 391.0, 137.833328, 391.0 ],
 					"source" : [ "obj-160", 0 ]
 				}
 
@@ -24074,7 +24089,7 @@
 					"destination" : [ "obj-132", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1169.166667, 161.0, 1102.572266, 161.0 ],
+					"midpoints" : [ 1169.166626, 161.0, 1102.572266, 161.0 ],
 					"source" : [ "obj-172", 2 ]
 				}
 
@@ -24084,7 +24099,7 @@
 					"destination" : [ "obj-171", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1228.666667, 163.0, 632.682983, 163.0 ],
+					"midpoints" : [ 1228.666626, 163.0, 632.682983, 163.0 ],
 					"source" : [ "obj-172", 5 ]
 				}
 
@@ -24094,7 +24109,7 @@
 					"destination" : [ "obj-320", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1149.333333, 164.0, 677.25, 164.0 ],
+					"midpoints" : [ 1149.333374, 164.0, 677.25, 164.0 ],
 					"source" : [ "obj-172", 1 ]
 				}
 
@@ -24114,7 +24129,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1208.833333, 162.0, 779.067017, 162.0 ],
+					"midpoints" : [ 1208.833374, 162.0, 779.067017, 162.0 ],
 					"source" : [ "obj-172", 4 ]
 				}
 
@@ -24143,7 +24158,7 @@
 					"destination" : [ "obj-79", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.5, 577.0, 139.833333, 577.0 ],
+					"midpoints" : [ 26.5, 577.0, 139.833328, 577.0 ],
 					"source" : [ "obj-174", 0 ]
 				}
 
@@ -24209,7 +24224,7 @@
 					"destination" : [ "obj-355", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1551.169719, 291.440491, 1578.836385, 291.440491 ],
+					"midpoints" : [ 1551.169678, 291.440491, 1578.836426, 291.440491 ],
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -24219,7 +24234,7 @@
 					"destination" : [ "obj-355", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1546.336385, 295.786957, 1560.169719, 295.786957 ],
+					"midpoints" : [ 1546.336426, 295.786957, 1560.169678, 295.786957 ],
 					"source" : [ "obj-18", 1 ]
 				}
 
@@ -24661,7 +24676,7 @@
 					"destination" : [ "obj-171", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 986.321429, 161.363632, 632.682983, 161.363632 ],
+					"midpoints" : [ 986.321411, 161.363632, 632.682983, 161.363632 ],
 					"source" : [ "obj-217", 6 ]
 				}
 
@@ -24671,7 +24686,7 @@
 					"destination" : [ "obj-244", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 889.178571, 161.0, 677.25, 161.0 ],
+					"midpoints" : [ 889.178589, 161.0, 677.25, 161.0 ],
 					"source" : [ "obj-217", 1 ]
 				}
 
@@ -24681,7 +24696,7 @@
 					"destination" : [ "obj-251", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 928.035714, 161.484207, 916.5, 161.484207 ],
+					"midpoints" : [ 928.035706, 161.484207, 916.5, 161.484207 ],
 					"source" : [ "obj-217", 3 ]
 				}
 
@@ -24691,7 +24706,7 @@
 					"destination" : [ "obj-256", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 908.607143, 162.564476, 730.567017, 162.564476 ],
+					"midpoints" : [ 908.607117, 162.564468, 730.567017, 162.564468 ],
 					"source" : [ "obj-217", 2 ]
 				}
 
@@ -24711,7 +24726,7 @@
 					"destination" : [ "obj-270", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 947.464286, 162.0, 827.75, 162.0 ],
+					"midpoints" : [ 947.464294, 162.0, 827.75, 162.0 ],
 					"source" : [ "obj-217", 4 ]
 				}
 
@@ -24721,7 +24736,7 @@
 					"destination" : [ "obj-274", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 966.892857, 162.515793, 869.75, 162.515793 ],
+					"midpoints" : [ 966.892883, 162.515793, 869.75, 162.515793 ],
 					"source" : [ "obj-217", 5 ]
 				}
 
@@ -24888,7 +24903,7 @@
 					"destination" : [ "obj-171", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1453.324517, 163.363632, 632.682983, 163.363632 ],
+					"midpoints" : [ 1453.324463, 163.363632, 632.682983, 163.363632 ],
 					"source" : [ "obj-228", 8 ]
 				}
 
@@ -24898,7 +24913,7 @@
 					"destination" : [ "obj-192", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1321.880073, 163.0, 843.682983, 163.0 ],
+					"midpoints" : [ 1321.880127, 163.0, 843.682983, 163.0 ],
 					"source" : [ "obj-228", 1 ]
 				}
 
@@ -24908,7 +24923,7 @@
 					"destination" : [ "obj-202", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1359.435628, 161.226311, 1018.061768, 161.226311 ],
+					"midpoints" : [ 1359.435669, 161.226318, 1018.061768, 161.226318 ],
 					"source" : [ "obj-228", 3 ]
 				}
 
@@ -24918,7 +24933,7 @@
 					"destination" : [ "obj-316", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1434.546739, 163.0, 960.572266, 163.0 ],
+					"midpoints" : [ 1434.546753, 163.0, 960.572266, 163.0 ],
 					"source" : [ "obj-228", 7 ]
 				}
 
@@ -24928,7 +24943,7 @@
 					"destination" : [ "obj-325", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1303.102295, 161.661842, 834.932983, 161.661842 ],
+					"midpoints" : [ 1303.102295, 161.661835, 834.932983, 161.661835 ],
 					"source" : [ "obj-228", 0 ]
 				}
 
@@ -24938,7 +24953,7 @@
 					"destination" : [ "obj-327", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1340.657851, 161.790787, 868.5, 161.790787 ],
+					"midpoints" : [ 1340.657837, 161.790787, 868.5, 161.790787 ],
 					"source" : [ "obj-228", 2 ]
 				}
 
@@ -24948,7 +24963,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1396.991184, 162.742104, 1065.878784, 162.742104 ],
+					"midpoints" : [ 1396.991211, 162.742111, 1065.878784, 162.742111 ],
 					"source" : [ "obj-228", 5 ]
 				}
 
@@ -24958,7 +24973,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1378.213406, 161.177628, 884.317017, 161.177628 ],
+					"midpoints" : [ 1378.213379, 161.177628, 884.317017, 161.177628 ],
 					"source" : [ "obj-228", 4 ]
 				}
 
@@ -24968,7 +24983,7 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1415.768962, 162.355263, 919.0, 162.355263 ],
+					"midpoints" : [ 1415.768921, 162.35527, 919.0, 162.35527 ],
 					"source" : [ "obj-228", 6 ]
 				}
 
@@ -25216,7 +25231,7 @@
 					"destination" : [ "obj-188", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 916.5, 308.636353, 1099.09082, 308.636353, 1099.09082, 37.727273, 1371.306885, 37.727273 ],
+					"midpoints" : [ 916.5, 308.636353, 1099.09082, 308.636353, 1099.09082, 37.727272, 1371.306885, 37.727272 ],
 					"source" : [ "obj-251", 0 ]
 				}
 
@@ -25389,7 +25404,7 @@
 					"destination" : [ "obj-355", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1747.666667, 416.245697, 1723.677612, 416.245697, 1723.677612, 293.303253, 1578.836385, 293.303253 ],
+					"midpoints" : [ 1747.666626, 416.245697, 1723.677612, 416.245697, 1723.677612, 293.303253, 1578.836426, 293.303253 ],
 					"source" : [ "obj-260", 2 ]
 				}
 
@@ -25399,7 +25414,7 @@
 					"destination" : [ "obj-355", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1742.833333, 416.245697, 1722.435669, 416.245697, 1722.435669, 289.577744, 1560.169719, 289.577744 ],
+					"midpoints" : [ 1742.833374, 416.245697, 1722.435669, 416.245697, 1722.435669, 289.577759, 1560.169678, 289.577759 ],
 					"source" : [ "obj-260", 1 ]
 				}
 
@@ -25409,7 +25424,7 @@
 					"destination" : [ "obj-355", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1738.0, 413.141083, 1722.435669, 413.141083, 1722.435669, 284.610367, 1541.503052, 284.610367 ],
+					"midpoints" : [ 1738.0, 413.141083, 1722.435669, 413.141083, 1722.435669, 284.610382, 1541.503052, 284.610382 ],
 					"source" : [ "obj-260", 0 ]
 				}
 
@@ -25581,7 +25596,7 @@
 					"destination" : [ "obj-388", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1558.200073, 128.63636, 1495.454468, 128.63636, 1495.454468, 61.363634, 1517.400024, 61.363634 ],
+					"midpoints" : [ 1558.200073, 128.636353, 1495.454468, 128.636353, 1495.454468, 61.363632, 1517.400024, 61.363632 ],
 					"source" : [ "obj-277", 0 ]
 				}
 
@@ -26010,7 +26025,7 @@
 					"destination" : [ "obj-155", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 730.567017, 312.272705, 602.727234, 312.272705, 602.727234, 69.545452, 200.0, 69.545452 ],
+					"midpoints" : [ 730.567017, 312.272705, 602.727234, 312.272705, 602.727234, 69.545448, 200.0, 69.545448 ],
 					"source" : [ "obj-324", 0 ]
 				}
 
@@ -26107,7 +26122,7 @@
 					"destination" : [ "obj-20", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 222.5, 418.0, 137.833333, 418.0 ],
+					"midpoints" : [ 222.5, 418.0, 137.833328, 418.0 ],
 					"source" : [ "obj-341", 2 ]
 				}
 
@@ -26117,7 +26132,7 @@
 					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 204.5, 411.0, 128.166667, 411.0 ],
+					"midpoints" : [ 204.5, 411.0, 128.166672, 411.0 ],
 					"source" : [ "obj-341", 1 ]
 				}
 
@@ -26292,7 +26307,7 @@
 					"destination" : [ "obj-262", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1544.600024, 127.727272, 1496.363525, 127.727272, 1496.363525, 37.727273, 1585.400024, 37.727273 ],
+					"midpoints" : [ 1544.599976, 127.727272, 1496.363525, 127.727272, 1496.363525, 37.727272, 1585.400024, 37.727272 ],
 					"source" : [ "obj-388", 2 ]
 				}
 
@@ -26302,7 +26317,7 @@
 					"destination" : [ "obj-266", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1544.600024, 127.727272, 1496.363525, 127.727272, 1496.363525, 36.818182, 1626.503052, 36.818182 ],
+					"midpoints" : [ 1544.599976, 127.727272, 1496.363525, 127.727272, 1496.363525, 36.818184, 1626.503052, 36.818184 ],
 					"source" : [ "obj-388", 2 ]
 				}
 
@@ -26312,7 +26327,7 @@
 					"destination" : [ "obj-266", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1517.400024, 128.63636, 1496.363525, 128.63636, 1496.363525, 36.818182, 1626.503052, 36.818182 ],
+					"midpoints" : [ 1517.400024, 128.636353, 1496.363525, 128.636353, 1496.363525, 36.818184, 1626.503052, 36.818184 ],
 					"source" : [ "obj-388", 0 ]
 				}
 
@@ -26521,7 +26536,7 @@
 					"destination" : [ "obj-18", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1598.911743, 264.740891, 1582.728394, 264.740891, 1582.728394, 205.132446, 1570.503052, 205.132446 ],
+					"midpoints" : [ 1598.911743, 264.740906, 1582.728394, 264.740906, 1582.728394, 205.132446, 1570.503052, 205.132446 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -26531,7 +26546,7 @@
 					"destination" : [ "obj-18", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1598.911743, 262.257202, 1583.970215, 262.257202, 1583.970215, 206.374283, 1560.836385, 206.374283 ],
+					"midpoints" : [ 1598.911743, 262.257202, 1583.970215, 262.257202, 1583.970215, 206.374283, 1560.836426, 206.374283 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -26541,7 +26556,7 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1598.911743, 261.636276, 1582.728394, 261.636276, 1582.728394, 205.132446, 1551.169719, 205.132446 ],
+					"midpoints" : [ 1598.911743, 261.636261, 1582.728394, 261.636261, 1582.728394, 205.132446, 1551.169678, 205.132446 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -26551,7 +26566,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1598.911743, 261.015366, 1583.970215, 261.015366, 1583.970215, 204.51152, 1541.503052, 204.51152 ],
+					"midpoints" : [ 1598.911743, 261.015381, 1583.970215, 261.015381, 1583.970215, 204.51152, 1541.503052, 204.51152 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -26712,7 +26727,7 @@
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 649.581543, 94.999996, 649.581543, 94.999996 ],
+					"midpoints" : [ 649.581543, 94.999992, 649.581543, 94.999992 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -27046,7 +27061,7 @@
 					"destination" : [ "obj-341", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 384.722249, 289.0, 213.5, 289.0 ],
+					"midpoints" : [ 384.72226, 289.0, 213.5, 289.0 ],
 					"source" : [ "obj-80", 2 ]
 				}
 
@@ -27056,7 +27071,7 @@
 					"destination" : [ "obj-341", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 285.611125, 289.497375, 200.0, 289.497375 ],
+					"midpoints" : [ 285.611115, 289.497375, 200.0, 289.497375 ],
 					"source" : [ "obj-80", 1 ]
 				}
 
@@ -27314,344 +27329,237 @@
  ],
 		"parameters" : 		{
 			"obj-80.5::obj-73" : [ "live.gain~[20]", "live.gain~[1]", 0 ],
-			"obj-88::obj-4::obj-120" : [ "live.gain~[50]", "live.gain~[30]", 0 ],
-			"obj-80.1::obj-73" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
-			"obj-88::obj-4::obj-1.1::obj-70" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-80.1::obj-71" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-88::obj-2::obj-1.1::obj-70" : [ "live.gain~[32]", "live.gain~", 0 ],
-			"obj-88::obj-3::obj-1.1::obj-70" : [ "live.gain~[46]", "live.gain~", 0 ],
-			"obj-80.2::obj-70" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-80.8::obj-71" : [ "live.gain~[42]", "live.gain~[1]", 0 ],
-			"obj-18" : [ "live.gain~[14]", "live.gain~[1]", 0 ],
-			"obj-20" : [ "live.gain~[48]", "live.gain~[30]", 0 ],
-			"obj-80.2::obj-71" : [ "live.gain~[4]", "live.gain~[1]", 0 ],
-			"obj-80.3::obj-73" : [ "live.gain~[6]", "live.gain~[1]", 0 ],
-			"obj-311::obj-1" : [ "live.gain~[35]", "live.gain~[35]", 0 ],
-			"obj-106" : [ "live.gain~[53]", "live.gain~[30]", 0 ],
-			"obj-80.5::obj-71" : [ "live.gain~[21]", "live.gain~[1]", 0 ],
-			"obj-88::obj-29" : [ "live.gain~[57]", "live.gain~[30]", 0 ],
-			"obj-80.6::obj-71" : [ "live.gain~[38]", "live.gain~[1]", 0 ],
-			"obj-88::obj-28" : [ "live.gain~[56]", "live.gain~[30]", 0 ],
-			"obj-80.7::obj-70" : [ "live.gain~[41]", "live.gain~", 0 ],
-			"obj-88::obj-12" : [ "live.gain~[24]", "live.gain~[30]", 0 ],
-			"obj-134" : [ "live.gain~[58]", "live.gain~[30]", 0 ],
-			"obj-121" : [ "live.gain~[51]", "live.gain~[30]", 0 ],
-			"obj-80.3::obj-70" : [ "live.gain~[16]", "live.gain~", 0 ],
-			"obj-88::obj-1::obj-1.1::obj-70" : [ "live.gain~[30]", "live.gain~", 0 ],
-			"obj-222" : [ "live.gain~[27]", "live.gain~[30]", 0 ],
-			"obj-80.4::obj-70" : [ "live.gain~[19]", "live.gain~", 0 ],
-			"obj-88::obj-2::obj-120" : [ "live.gain~[10]", "live.gain~[30]", 0 ],
-			"obj-80.7::obj-73" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
-			"obj-79" : [ "live.gain~[52]", "live.gain~[32]", 0 ],
-			"obj-80.8::obj-70" : [ "live.gain~[43]", "live.gain~", 0 ],
-			"obj-88::obj-1::obj-1.1::obj-73" : [ "live.gain~[31]", "live.gain~[1]", 0 ],
-			"obj-88::obj-4::obj-1.1::obj-73" : [ "live.gain~[8]", "live.gain~[1]", 0 ],
-			"obj-88::obj-2::obj-1.1::obj-73" : [ "live.gain~[45]", "live.gain~[1]", 0 ],
-			"obj-80.4::obj-73" : [ "live.gain~[17]", "live.gain~[1]", 0 ],
-			"obj-88::obj-3::obj-1.1::obj-73" : [ "live.gain~[34]", "live.gain~[1]", 0 ],
-			"obj-80.5::obj-70" : [ "live.gain~[37]", "live.gain~", 0 ],
-			"obj-88::obj-4::obj-1.1::obj-71" : [ "live.gain~[12]", "live.gain~[1]", 0 ],
-			"obj-80.6::obj-70" : [ "live.gain~[39]", "live.gain~", 0 ],
-			"obj-88::obj-3::obj-120" : [ "live.gain~[7]", "live.gain~[30]", 0 ],
-			"obj-80.3::obj-71" : [ "live.gain~[15]", "live.gain~[1]", 0 ],
-			"obj-88::obj-1::obj-120" : [ "live.gain~[54]", "live.gain~[30]", 0 ],
-			"obj-80.1::obj-70" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-80.6::obj-73" : [ "live.gain~[28]", "live.gain~[1]", 0 ],
-			"obj-80.7::obj-71" : [ "live.gain~[40]", "live.gain~[1]", 0 ],
-			"obj-260" : [ "live.gain~[36]", "live.gain~[36]", 0 ],
-			"obj-80.8::obj-73" : [ "live.gain~[29]", "live.gain~[1]", 0 ],
-			"obj-88::obj-106" : [ "live.gain~[47]", "live.gain~[30]", 0 ],
-			"obj-88::obj-1::obj-1.1::obj-71" : [ "live.gain~[23]", "live.gain~[1]", 0 ],
-			"obj-88::obj-2::obj-1.1::obj-71" : [ "live.gain~[44]", "live.gain~[1]", 0 ],
 			"obj-120" : [ "live.gain~[26]", "live.gain~[30]", 0 ],
+			"obj-80.7::obj-71" : [ "live.gain~[40]", "live.gain~[1]", 0 ],
+			"obj-20" : [ "live.gain~[48]", "live.gain~[30]", 0 ],
+			"obj-106" : [ "live.gain~[53]", "live.gain~[30]", 0 ],
+			"obj-80.3::obj-73" : [ "live.gain~[6]", "live.gain~[1]", 0 ],
 			"obj-80.4::obj-71" : [ "live.gain~[18]", "live.gain~[1]", 0 ],
+			"obj-134" : [ "live.gain~[58]", "live.gain~[30]", 0 ],
+			"obj-80.5::obj-71" : [ "live.gain~[21]", "live.gain~[1]", 0 ],
+			"obj-121" : [ "live.gain~[51]", "live.gain~[30]", 0 ],
+			"obj-80.6::obj-71" : [ "live.gain~[38]", "live.gain~[1]", 0 ],
+			"obj-88::obj-3::obj-120" : [ "live.gain~[7]", "live.gain~[30]", 0 ],
+			"obj-79" : [ "live.gain~[52]", "live.gain~[32]", 0 ],
+			"obj-88::obj-1::obj-120" : [ "live.gain~[54]", "live.gain~[30]", 0 ],
+			"obj-88::obj-106" : [ "live.gain~[47]", "live.gain~[30]", 0 ],
+			"obj-80.4::obj-73" : [ "live.gain~[17]", "live.gain~[1]", 0 ],
+			"obj-80.5::obj-70" : [ "live.gain~[37]", "live.gain~", 0 ],
+			"obj-80.8::obj-70" : [ "live.gain~[43]", "live.gain~", 0 ],
+			"obj-311::obj-1" : [ "live.gain~[35]", "live.gain~[35]", 0 ],
+			"obj-88::obj-29" : [ "live.gain~[57]", "live.gain~[30]", 0 ],
+			"obj-88::obj-28" : [ "live.gain~[56]", "live.gain~[30]", 0 ],
+			"obj-88::obj-2::obj-120" : [ "live.gain~[10]", "live.gain~[30]", 0 ],
+			"obj-88::obj-12" : [ "live.gain~[24]", "live.gain~[30]", 0 ],
+			"obj-88::obj-4::obj-120" : [ "live.gain~[50]", "live.gain~[30]", 0 ],
+			"obj-80.2::obj-70" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-80.3::obj-70" : [ "live.gain~[16]", "live.gain~", 0 ],
+			"obj-80.2::obj-71" : [ "live.gain~[4]", "live.gain~[1]", 0 ],
+			"obj-80.4::obj-70" : [ "live.gain~[19]", "live.gain~", 0 ],
+			"obj-80.7::obj-70" : [ "live.gain~[41]", "live.gain~", 0 ],
+			"obj-80.8::obj-73" : [ "live.gain~[29]", "live.gain~[1]", 0 ],
+			"obj-80.1::obj-70" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-18" : [ "live.gain~[14]", "live.gain~[1]", 0 ],
+			"obj-80.3::obj-71" : [ "live.gain~[15]", "live.gain~[1]", 0 ],
+			"obj-222" : [ "live.gain~[27]", "live.gain~[30]", 0 ],
+			"obj-80.6::obj-70" : [ "live.gain~[39]", "live.gain~", 0 ],
+			"obj-80.7::obj-73" : [ "live.gain~[22]", "live.gain~[1]", 0 ],
+			"obj-80.8::obj-71" : [ "live.gain~[42]", "live.gain~[1]", 0 ],
 			"obj-80.2::obj-73" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
-			"obj-88::obj-3::obj-1.1::obj-71" : [ "live.gain~[33]", "live.gain~[1]", 0 ]
+			"obj-80.1::obj-73" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
+			"obj-260" : [ "live.gain~[36]", "live.gain~[36]", 0 ],
+			"obj-80.1::obj-71" : [ "live.gain~[1]", "live.gain~[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "quadpanS.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan2S.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "04-transit-freeze2.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noiseplayer.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "04-transit-freeze.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scaleRandom2.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vs.between.maxpat",
-				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/virtualsound macros/random generators",
-				"patcherrelativepath" : "../../Documents/Classes/MAXMSP/virtualsound macros/random generators",
+				"bootpath" : "/Users/n704s313/Desktop/virtualsound macros/random generators",
+				"patcherrelativepath" : "../virtualsound macros/random generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vs.random.maxpat",
-				"bootpath" : "/Users/Nicholas/Documents/Classes/MAXMSP/virtualsound macros/random generators",
-				"patcherrelativepath" : "../../Documents/Classes/MAXMSP/virtualsound macros/random generators",
+				"bootpath" : "/Users/n704s313/Desktop/virtualsound macros/random generators",
+				"patcherrelativepath" : "../virtualsound macros/random generators",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scaleMidi.txt",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat4.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/examples/spatialization/quad-spatializer-folder/lib",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/examples/spatialization/quad-spatializer-folder/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/spatialization/quad-spatializer-folder/lib",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/quad-spatializer-folder/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan4S.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/examples/effects/reverb/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan2.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/examples/spatialization/panning/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "quadpan.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gizmo_loadme.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../../Program Files/Cycling '74/Max 6.1/Cycling '74/msp-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/msp-help",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chord_progression.txt",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freezetests1.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scaleRandom_freeze.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transit-freeze1.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freezescale.txt",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freezetests2.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transit-freeze2.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freezetests3.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transit-freeze3.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freezetests4.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transit-freeze4.pfft.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bind_buttons.maxpat",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "c.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
+				"name" : "KeyboardBindings.txt",
+				"bootpath" : "/Users/n704s313/Desktop/TUEUChorale/Bindings",
+				"patcherrelativepath" : "./Bindings",
+				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "d.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "e.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "g.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "a.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "b.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "c2.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "d2.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "e2.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "f2.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "g2.png",
-				"bootpath" : "/Users/Nicholas/Audio stuff/Tuba Euph Chorale and Electronics/Note Images/Resize",
-				"patcherrelativepath" : "./Note Images/Resize/./Note Images/Resize",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
 			}
  ]
 	}
