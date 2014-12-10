@@ -12,6 +12,7 @@ electronics =
     \set Score.markFormatter = #format-mark-box-alphabet
     %\override NoteHead.style = #'kievan
     \hide Stem
+    \override Glissando.style = #'zigzag
     %\aikenHeadsMinor
     %\set shapeNoteStyles = ##(la la la la la la la )
     e,4 \fermata s2. | s1 | r2 g4 s\breathe | s1 | r2 b4 s\breathe | s1 | r2 f4\fermata\< s |
@@ -53,9 +54,9 @@ electronics =
     
   }
   
-% {\new Staff 
-%  <<
-%    \new Voice \include "rehearsal marks.ly"
-%    \electronics
-%   >>
-% }
+{\new Staff 
+ <<
+   \new Voice \include "rehearsal marks.ly"
+   \electronics
+  >>
+}
