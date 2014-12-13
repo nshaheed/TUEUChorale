@@ -1,11 +1,25 @@
 \version "2.18.2"
 \language "english"
 
-\header {
-  title = "Tuba - Euphonium Chorale"
-  instrument = "Euphonium II"
-  tagline = ""
-}
+  \header {
+  %title = "Tuba - Euphonium Chorale"
+  title = \markup {
+          \fontsize #7 
+          \override #'(font-name . "Calibri")
+          %\sans
+          "Tuba-Euphonium Chorale"}
+  instrument = \markup { 
+          \fontsize #3
+          \override #'(font-name . "Calibri")
+          "Euphonium II"
+          }
+  composer = \markup { 
+          \fontsize #3
+          \override #'(font-name . "Calibri")
+          "Nicholas Shaheed"
+          }
+  tagline = ##f
+  }
 
 euphtwo = 
   \relative c {
@@ -28,8 +42,8 @@ euphtwo =
     
     \time 4/2
     
-    R\breve | c,2\p e c' a~ | a\breve | c,2\< e c' a | gf'-> df bf1\mf->^"no dim." |
-    bf bf | bf bf\breathe %{\mark%} |
+    R\breve | c,2\p\< e c' a~ | a\breve\> | c,2\< e c' a | gf'-> df bf1\mf->^"no dim." |
+    bf-> bf-> | bf-> bf->\breathe %{\mark%} |
     
     %R | c,2 e c' a~ | a r g1\< | a~ a~\mf\> | a\breve~ | a\breve\breathe \mark |
     
@@ -55,14 +69,14 @@ euphtwo =
     \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
     b!2\mf-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1 | R1.% |
     b2-> df1 | d!2-> df1 | d!2-> f gf~-> | gf d df~-> | df\breathe d f | gf1-> f2 |
-    gf2-> g1 | bf1-> d,2 | df1.\breathe |
+    gf2-> g1\< | bf1-> d,2\! | df1.\>\breathe |
     
-    b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | g2-> bf1 | b!2-> bf1 | b!2-> df d~-> | d b bf~-> | bf r1 |
+    b2->\! df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | g2-> bf1 | b!2-> bf1 | b!2->\< df d~->\! | d b\> bf~-> | bf\! r1 |
     b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | d2\<-> df1 | gf2-> f1 | d'2 df1-> | gf2 f1->\breathe | 
     
     %Transposed Reiteration
     % bmark here
-    ef,1.\f  | c2-> ef c' | g1. | b,2-> d b' | g1. | c,2-> ef c' | g ef1-> | c2-> ef c' | 
+    ef,1.\f  | c2->\< ef c' | g1.\> | b,2->\< d b' | g1.\> | c,2->\!^"sim." ef c' | g ef1-> | c2-> ef c' | 
     ef,1. | b2-> d b' | d,1. | b2-> d b' | 
     
     %{ ef,1. | c2-> ef c' | g1. | b,2-> d b' | ef,1. | af,2-> cf af' | g2 c,1-> |  b2-> d b' |%}
@@ -77,11 +91,11 @@ euphtwo =
     
     \time 3/2
     \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
-    R1.\! | bf,,2\p d bf' | f1.\breathe | bf,2 d bf' | f1. | R | e2 a e' | c1. | R1. | 
-    e,2 a e' | 
+    R1.\! | bf,,2\p\< d bf' | f1.\>\breathe | bf,2\< d bf' | f1.\> | R\! | e2\< a e' | c1.\> | R1.\! | 
+    e,2\< a e' | 
     
     \time 4/2
-    c-> bf df-> c | R\breve * 2 | c,2 e c' a~ | <<{a\breve} {s2 s s\< s}>> |
+    c->\! bf df-> c | R\breve * 2 | c,2\< e c' a~ | <<{a\breve\!} {s2 s s\< s}>> |
     
     \time 2/2
     r2\! a2\mp\>~ | <<{a1\fermata} {s4 s s s\!}>>  |

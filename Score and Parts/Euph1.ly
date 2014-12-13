@@ -1,11 +1,25 @@
 \version "2.18.2"
 \language "english"
 
-\header {
-  title = "Tuba - Euphonium Chorale"
-  instrument = "Euphonium I"
-    tagline = ""
-}
+  \header {
+  %title = "Tuba - Euphonium Chorale"
+  title = \markup {
+          \fontsize #7 
+          \override #'(font-name . "Calibri")
+          %\sans
+          "Tuba-Euphonium Chorale"}
+  instrument = \markup { 
+          \fontsize #3
+          \override #'(font-name . "Calibri")
+          "Euphonium I"
+          }
+  composer = \markup { 
+          \fontsize #3
+          \override #'(font-name . "Calibri")
+          "Nicholas Shaheed"
+          }
+  tagline = ##f
+  }
 
 %rr = \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
 %b  = \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
@@ -27,14 +41,14 @@ euphone =
     
     \override BreathingSign.text = \markup { \musicglyph #"scripts.rcomma" }
     
-    c1\< r2\! | R1. | e,2\p a e' |  c1.\breathe | e,2 a e' |  c1. |
+    c1\< r2\! | R1. | e,2\p\< a e' |  c1.\!\>\breathe | e,2\!\< a e' |  c1.\!\> |
     
     \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
     \time 4/2
     
     \compressFullBarRests
     \override MultiMeasureRest.expand-limit = #2
-    g'\breve-> | R\breve*6\breathe %{\mark%} |
+    g'\breve\!-> | R\breve*6\breathe %{\mark%} |
     
     \time 2/2
     
@@ -71,21 +85,21 @@ euphone =
     b2-> df1 | d!2-> gf1 | f2-> df1 | bf2-> f1\breathe | d2\<-> df1 | gf2-> f1 | d'2 df1-> | gf2 f1-> | 
     %}
     
-    R1.\! |  d,1.\mf | b2-> d b' | f1. | d | R | b2-> d b' |
-    fs1. | d | b | b | R | R | bf2-> df bf' | 
+    R1.\! |  d,1.\mf | b2\<-> d b' | f1.\!\> | d | R\! | b2->\< d b' |
+    fs1.\> | d | b\! | b | R | R | bf2->\< df bf' | 
     
 
     
-    fs1. | d | R1.*5 | bf2-> df bf' | g1.
+    fs1.\> | d | R1.*5\! | bf2->\< df bf' | g1.\>
     
-    | d | R | b2-> d b' | f1. |
+    | d | R\! | b2->\< d b' | f1.\> |
     d\< | R | b2-> d b' | gf1.\breathe | %<- Breath mark here
 
     % Transposed reiteration
     c2\f-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1 | c2-> d1 | ef2-> d1 | ef2-> gf g~-> | g ef gf | 
     g!1->\breathe gf2\< | g!-> af g | b1\!-> ef,2 | d1.\breathe | 
     %{ c2-> d1 | ef2-> g1 | gf2-> d1 | b2-> gf1\breathe | af2-> b1 | c2-> b1 | c2-> d ef~-> | ef c b |%} c2\<-> d1 |
-    ef2-> g1 | gf2-> d1 | b2-> gf1 | ef2-> d1 | g2-> gf1 | ef'2 d1-> | g2 gf1-> | g!1.\ff\fermata | R\fermataMarkup |
+    ef2-> g1 | gf2-> d1 | b2-> gf1 | ef2-> d1 | g2-> gf1 | ef'2 d1-> | e!2 gf1-> | g!1.\ff\fermata | R\fermataMarkup |
     
     % Reprise
     
@@ -97,11 +111,11 @@ euphone =
     
     \time 3/2
     
-    R1. * 2\! | bf,2\p d bf' | f1. | R1. bf,2 d bf' | a1. | R1. | e2 a e' | c1. | 
+    R1. * 2\! | bf,2\p\< d bf' | f1.\> | R1.\! | bf,2\< d bf' | a1.\> | R1.\! | e2\< a e' | c1.\> | 
      
     \time 4/2
      
-    g\breve-> | a\breve | R\breve * 2 | r1 gf'2\<-> df~-> |
+    g\breve->\! | a\breve | R\breve * 2 | r1 gf'2\<-> df~-> |
     
     \time 2/2
     
@@ -115,4 +129,3 @@ euphone =
 %    \euphone
 %   >>
 % }
-% 

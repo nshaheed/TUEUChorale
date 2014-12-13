@@ -32,7 +32,7 @@
 }
 
   \header {
-  %title = "Tuba - Euphonium Chorale"
+  %title = "Tuba - Euph	onium Chorale"
   title = \markup {
           \fontsize #7 
           \override #'(font-name . "Calibri")
@@ -120,12 +120,17 @@
     }
     
     \new StaffGroup {
-      <<
-      \override Staff.InstrumentName.self-alignment-X = #CENTER
-      \set Staff.instrumentName = "Elec."
-      \set Staff.shortInstrumentName = "Elec."
-      \electronics
-      >>
+      \new Staff = "elec" {
+        <<
+        \override Staff.InstrumentName.self-alignment-X = #CENTER
+        \set Staff.instrumentName = "Elec."
+        \set Staff.shortInstrumentName = "Elec."
+        
+        \new Voice \electronics
+        \new Voice \tuba
+        \new Voice \euphMix
+        >>
+      }
     }
  >>
  
