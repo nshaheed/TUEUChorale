@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 1928.0, -164.0, 1047.0, 624.0 ],
+		"rect" : [ 311.0, 50.0, 1047.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 281.0, 21.0, 25.0, 25.0 ]
 				}
 
@@ -2713,7 +2713,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"interp" : 113.0,
+					"interp" : 20.0,
 					"maxclass" : "gain~",
 					"numinlets" : 2,
 					"numoutlets" : 2,

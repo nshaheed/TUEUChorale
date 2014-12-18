@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 8,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 633.0, 44.0, 1047.0, 624.0 ],
+		"rect" : [ 311.0, 50.0, 1047.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -163,7 +163,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 8.0, 50.0, 640.0, 480.0 ],
@@ -772,7 +772,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 22.0, 98.0, 640.0, 480.0 ],
@@ -1051,7 +1051,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 8.0, 50.0, 640.0, 480.0 ],
@@ -1514,7 +1514,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -1621,7 +1621,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 8,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 30.0, 50.0, 1047.0, 624.0 ],
@@ -2714,7 +2714,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"interp" : 113.0,
+					"interp" : 20.0,
 					"maxclass" : "gain~",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -2893,8 +2893,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 6,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 14.0, 21.0, 156.0, 20.0 ],
 					"text" : "poly~ scaleRandom_freeze"
 				}
