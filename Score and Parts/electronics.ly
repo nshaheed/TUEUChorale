@@ -40,19 +40,22 @@ electronics =
     
     
     \time 5/2 r1 s4 s4 g,4 s4 
+    
     \once \override Stem.transparent = ##f
     g4 \once \override Stem.transparent = ##f d4\> |
+    
+    \stemDown
     \time 2/2 s1\! |
-    \time 5/2 r1 b'4 s4 g4 s4 \once \override Stem.transparent = ##f g4 
+    \time 5/2 r1 s4 s4 g4 s4 \once \override Stem.transparent = ##f g4 
     \once \override Stem.transparent = ##f d4 |
     
     \time 2/2 s1 |
-    \time 5/2 r1 c'4\< s4 g4 s2. | 
+    \time 5/2 r1 s4\< s4 g4 s2. | 
     \time 3/2 a4\! s4 s1 | s1. * 30  | f4 s4 s1 | s1. * 11 | 
     e4\< s4 s1 | s1. * 7 | s1.\fermata\! | 
     <<{g4 s4 s1} {s1.\fermata}>> | 
     
-    \time 2/2 b4 s2. | s1 | s1 | r2 g4 s4 | s1 | r2 b4\< s4 | 
+    \time 2/2 b4 s2. | s1 | s1 | r2 s4 s4 | s1 | r2 b4\< s4 | 
     s1 | a4\!\> s4 s2 | s1\! | s1 | r2 b4\< s4 | s1 | 
     
     \time 3/2 <<{a4\!\>} {d4}>> s4 s1 | d4\! s4 s1 | 
@@ -85,6 +88,28 @@ tuba = \relative c'  {
     \time 5/2 s1 e4\glissando \gso s4 \hn \gsof e4\glissando 
     \gso s4 \hn \gsof e4\glissando \gso s8. \hn \gsof e16
     
+    \time 2/2 s1
+   
+    \time 5/2 s1 b'4\glissando \gso s4 \hn \gsof b4\glissando 
+    \gso s4 \hn \gsof b4\glissando \gso s8. \hn \gsof b16
+    
+    \time 2/2 s1
+   
+    \time 5/2 s1 c4\glissando \gso s4 \hn \gsof c4\glissando 
+    \gso s4 s4 s8. \hn \gsof c16
+    
+    \time 3/2 s1. * 53
+    
+    \time 2/2 s1 * 3
+    
+    s2 g4\glissando \gso s4 | s1 * 8 
+    
+    \time 3/2 s1. * 10
+    
+    \time 4/2 s\breve * 5 
+    
+    \time 2/2 s1 | s2 \gsof \once \hideNotes g4 s4
+    
     
 }
 
@@ -98,6 +123,14 @@ euphMix = \relative c' {
     
     s1 | s | s | s | s2 b4\glissando \gso s4 | s1 | s | 
     \time 3/2 s1. * 6 | \time 4/2 s\breve * 6 | s1 s2 s4 \gsof \once \hideNotes b4
+    
+    \time 2/2 s1 | \time 5/2 s2 s\breve | \time 2/2 s1 | \time 5/2 s2 s\breve |
+    \time 2/2 s1 | \time 5/2 s2 s\breve |
+    
+    \time 3/2 s1. * 53 | \time 2/2 s1 * 5 | s2 b4\glissando \gso s4 |
+    s1 * 6 | \time 3/2 s1. * 10 | \time 4/2 s\breve * 5 | 
+    \time 2/2 s1 | s2 \gsof \once \hideNotes b4 s4
+    
 }
 
 {\new Staff 
