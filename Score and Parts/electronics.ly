@@ -16,7 +16,7 @@
   %glisstest = {g4\glissando g s2 |  g4 }
 electronics = 
   \relative c'  {
-    \clef "percussion"
+    \clef "percussion"	
     \time 2/2
     \numericTimeSignature
     
@@ -117,6 +117,9 @@ euphMix = \relative c' {
     \override Glissando.breakable = ##t
     \override Glissando.after-line-breaking = ##t
     \override Glissando.style = #'zigzag
+    %\override Glissando.X-extent = #'(50 . 50)
+    %\override Glissando.zigzag-length = #'.6
+    %\override Glissando.zigzag-width  = #'5
     \hide Stem
     
     \voiceTwo
@@ -133,11 +136,33 @@ euphMix = \relative c' {
     
 }
 
+mixFly = \relative c' {
+    \override Glissando.breakable = ##t
+    \override Glissando.after-line-breaking = ##t
+    \override Glissando.style = #'zigzag
+    \override Glissando.X-extent = #'(50 . 50)
+    \override Glissando.zigzag-length = #'.6
+    \override Glissando.zigzag-width  = #'5
+    \hide NoteHead
+    \hide Stem
+    
+    s1 * 7 | s1 * 9 | s1 * 14 | s1 | s\breve s2 | 
+    s1 | s\breve s2 | s1 | s\breve s2
+    
+    | e1\glissando \gso s2 | s1. * 51 |
+    \gsof e1\glissando \gso 
+    \gsof 
+    %s1 s4 \gsof f1 | a4\glissando \gso s1 | \gsof a1
+    
+    %a1\glissando \gso s2 | \gsof a2
+}
+
 {\new Staff 
  <<
    \new Voice \include "rehearsal marks.ly"
    \new Voice \electronics
    \new Voice \tuba
    \new Voice \euphMix
+   \new Voice \mixFly
   >>
 }

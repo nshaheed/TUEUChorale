@@ -120,17 +120,29 @@
     }
     
     \new StaffGroup {
-      \new Staff = "elec" {
-        <<
-        \override Staff.InstrumentName.self-alignment-X = #CENTER
-        \set Staff.instrumentName = "Elec."
-        \set Staff.shortInstrumentName = "Elec."
+      <<
+        \new Staff = "elec" {
+          <<
+          \override Staff.InstrumentName.self-alignment-X = #CENTER
+          \set Staff.instrumentName = "Elec."
+          \set Staff.shortInstrumentName = "Elec."
+          
+          \new Voice \electronics
+          \new Voice \tuba
+          \new Voice \euphMix
+          \new Voice \mixFly
+          >>
+        }
         
-        \new Voice \electronics
-        \new Voice \tuba
-        \new Voice \euphMix
-        >>
-      }
+        \new Staff \with  {\remove "Staff_symbol_engraver"} {
+          \override Staff.Clef.color = #white
+          \override Staff.Clef.layer = #-1
+          \override Staff.TimeSignature.transparent = ##t
+          
+          
+          s1 * 150
+        }
+      >>
     }
  >>
  
